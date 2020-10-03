@@ -1,0 +1,110 @@
+@tailwind base;
+
+@import url('https://css.gg/css?=|dollar|smile-mouth-open|lock-unlock|time|menu|close');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+
+:root {
+  --ggs: 2;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  @apply text-primary;
+  text-decoration: underline;
+}
+a.menu-item {
+  @apply text-primary;
+  text-decoration: none;
+}
+a:hover {
+  @apply text-primary-highlight;
+}
+button:disabled, 
+button.primary:disabled,  
+button.primary:hover:disabled {
+  background: grey;
+  opacity: 50%;
+  box-shadow: none;
+  cursor: not-allowed;
+  color: white;
+}
+button.primary-text-bg:disabled,
+button.primary-text-bg:hover:disabled {
+  background: grey;
+  box-shadow: none;
+  cursor: not-allowed;
+  background-clip: text;
+  -webkit-background-clip: text;
+  border: 1px solid grey;
+}
+button.primary-text-bg {
+  box-shadow: #bbbbbb 0 5px 10px 0;
+}
+button.primary-text-bg:hover {
+  box-shadow: #bbbbbb 0 5px 20px 0;
+}
+button.primary-text-bg:focus {
+  box-shadow: #bbbbbb 0 5px 20px 0;
+  outline: none;
+}
+button.primary-text-bg:active {
+  box-shadow: inset 0 0 2.5px grey;
+}
+button.primary {
+  box-shadow: #e32c6a 0 10px 15px -10px;
+}
+button.primary:hover {
+  box-shadow: #e32c6a 0 10px 40px -10px;
+}
+button.primary:focus {
+  box-shadow: #e32c6a 0 10px 40px -10px;
+  outline: none;
+}
+button.primary:active {
+  box-shadow: inset 0 0 5px black;
+}
+i {
+  z-index: -1;
+  color: #DD2476;
+}
+p {
+  @apply font-body
+}
+.emphasis {
+  text-decoration: underline #e22b6b double 5px;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 10px;
+}
+.icon-button {
+  box-shadow: 0 5px 10px 0;
+}
+.icon-button:hover {
+  box-shadow: 0 5px 20px 0;
+}
+.icon-button:focus {
+  box-shadow: 0 5px 20px 0;
+  outline: none;
+}
+.icon-button:active {
+  box-shadow: inset 0 0 2.5px;
+}
+.primary {
+  background: #FF512F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
+  background: linear-gradient(to right, #DD2476, #FF512F);
+}
+.primary-text-bg {
+  background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #DD2476, #FF512F);
+  background-clip: text;
+  color: transparent;
+}
+
+@tailwind components;
+
+@tailwind utilities;
