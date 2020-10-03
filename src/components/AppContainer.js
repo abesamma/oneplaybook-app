@@ -157,7 +157,7 @@ const AppContainer = ({ className, controls }) => {
               {activeIndex === steps.length - 1 ? (
                 <button
                   type="button"
-                  onClick={controls}
+                  onClick={controls} // method to close app
                   className="visible primary font-body font-bold py-3 px-8 rounded text-white"
                 >
                   Finish
