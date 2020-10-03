@@ -28,33 +28,43 @@ const AppContainer = ({ className, controls }) => {
   const incrementIndex = () => setActiveIndex(activeIndex + 1);
   const decrementIndex = () => setActiveIndex(activeIndex - 1);
   // submits form one and two data all at once
-  const submitFormTwo = () => {
-    const handleFormTwoSubmission = (event) => {
+  const submitFormTwo = formOneData => {
+    // prepare form 2 data
+    const formTwoData = new FormData(formTwo);
+    // handler to prevent default behavior on submit
+    const handleFormTwoSubmission = event => {
       event.preventDefault();
-      const formTwoData = new FormData(formTwo);
-      const formOneData = new FormData(formOne);
       // eslint-disable-next-line no-restricted-syntax
       for (const entry of formOneData) {
+        // append form 1 data to form 2
         formTwoData.set(entry[0], entry[1]);
       }
+      // actual submission to google sheets
       const request = new XMLHttpRequest();
       request.open('POST', formTwo.action);
       request.send(formTwoData);
+      // remove listener to prevent duplication of submits
       formTwo.removeEventListener('submit', handleFormTwoSubmission);
-    }
+    };
+    // fire it all up!
     formTwo.addEventListener('submit', handleFormTwoSubmission);
     formTwo.requestSubmit();
-  }
-  // begins submission process startin with form 1
-  const submitFormOne = () => {
-    const handleFormOneSubmission = (event) => {
+  };
+  // begins submission process starting with form 1
+  const submitForms = () => {
+    // prepare form 1 data
+    const formOneData = new FormData(formOne);
+    // handler to prevent default behavior on submit
+    const handleFormOneSubmission = event => {
       event.preventDefault();
-      submitFormTwo();
+      submitFormTwo(formOneData);
+      // remove listener to prevent duplication of event handlings
       formOne.removeEventListener('submit', handleFormOneSubmission);
-    }
+    };
+    // fire it up!
     formOne.addEventListener('submit', handleFormOneSubmission);
     formOne.requestSubmit();
-  }
+  };
   // validates input and prompts form errors
   const checkFormThenIncrement = () => {
     let isFilled = true;
@@ -101,7 +111,7 @@ const AppContainer = ({ className, controls }) => {
           resolve();
         });
         submit
-          .then(submitFormOne)
+          .then(submitForms)
           .then(() => setLoading(false))
           .finally(incrementIndex);
       }
@@ -132,13 +142,10 @@ const AppContainer = ({ className, controls }) => {
               <FormContainer activeIndex={activeIndex} steps={steps} />
             </FormErrorContext.Provider>
             <div className="flex justify-between pt-4 pb-4">
-              {/* Used html elements and not components because we can't reference activeIndex otherwise */}
               <button
                 type="button"
-                {/*Disable `BACK btn` on loading and on final step to prevent user from resending data */}
                 disabled={loading || activeIndex === 3}
                 onClick={decrementIndex}
-                {/*`BACK btn` should not be visible at first step */}
                 className={
                   activeIndex > 0
                     ? 'visible primary-text-bg font-body font-bold text-sm py-3 px-8 rounded text-white'
