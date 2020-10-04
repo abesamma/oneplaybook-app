@@ -14,6 +14,7 @@ import AppsIllustration from '../svg/AppsIllustration';
 import BuildIllustration from '../svg/BuildIllustration';
 import Setup from '../svg/Setup';
 import MetaImg from '../assets/meta_image.png';
+import CookieBanner from '../components/CookieBanner';
 
 export default () => (
   <>
@@ -25,7 +26,7 @@ export default () => (
       <meta name="title" content="OnePlaybook — Learn, Think and Build, Together" />
       <meta
         name="description"
-        content="Codify knowledge to transform how you learn & think. Build low code apps quickly to do amazing things. Then invite anyone to do it all together."
+        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more, at low cost."
       />
 
       {/* Open Graph / Facebook */}
@@ -201,7 +202,7 @@ export default () => (
       />
       <section id="cloud" className="py-20 lg:pt-32">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl lg:text-5xl font-header pb-5">Host on cloud service</h2>
+          <h2 className="text-3xl lg:text-5xl font-header pb-5">Host on any cloud service</h2>
           <CloudVendors />
         </div>
       </section>
@@ -236,6 +237,7 @@ export default () => (
           </CtaButton>
         </p>
       </section>
+      <CookieBanner />
     </Layout>
   </>
 );

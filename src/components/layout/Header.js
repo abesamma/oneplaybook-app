@@ -1,5 +1,6 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { window } from 'browser-monads';
 import LogoIcon from '../../svg/LogoIcon';
 import CtaButton from '../CtaButton';
 

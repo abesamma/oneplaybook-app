@@ -7,17 +7,19 @@ module.exports = {
       }
     },
     `gatsby-plugin-material-ui`,
-    `gatsby-plugin-favicon`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `OnePlaybook app`,
         short_name: `OnePlaybook`,
+        description: `Oneplaybook app helps you learn, think and build awesome things with anyone easily.`,
+        lang: `en`,
         start_url: `/`,
-        icon: `src/favicon.png`,
         background_color: `#dd2476`,
         theme_color: `#dd2476`,
-        display: `standalone`
+        display: `standalone`,
+        icon: `src/favicon.png`,
+        legacy: `true`
       }
     },
     `gatsby-plugin-offline`,

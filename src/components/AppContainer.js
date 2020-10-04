@@ -3,6 +3,7 @@ import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
+import { document } from 'browser-monads';
 import StepperContainer from './StepperContainer';
 import FormContainer from './Forms/FormContainer';
 import FormErrorContext from './FormErrorContext';

@@ -2,7 +2,7 @@ import React from 'react';
 import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-import abraham from '../../public/static/abraham.jpg';
+import abraham from '../assets/abraham.jpg';
 import LinkedIn from '../svg/brands/LinkedIn';
 import Twitter from '../svg/brands/Twitter';
 import Github from '../svg/brands/Github';

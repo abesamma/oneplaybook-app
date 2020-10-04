@@ -17,7 +17,7 @@ export default () => (
     />
     <meta
       name="description"
-      content="Codify knowledge to transform how you learn & think. Build low code apps quickly to do amazing things. Then invite anyone to do it all together."
+      content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more, at low cost."
     />
 
     {/* Open Graph / Facebook */}
