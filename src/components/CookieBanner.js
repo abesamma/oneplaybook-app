@@ -4,12 +4,11 @@ import Button from './Button';
 import setCookie from './utils/setCookie';
 import checkForCookie from './utils/checkForCookie';
 
-const check = checkForCookie('opb-clicky-accept-status=true');
-
 const CookieBanner = () => {
+  const result = async () => checkForCookie('opb-clicky-accept-status=true');
   const [cookieBannerState, setCookieBannerState] = React.useState({
     expand: false,
-    dismiss: check
+    dismiss: result
   });
   const [acceptCookieState, setAcceptCookieState] = React.useState(false);
   React.useEffect(() => {
