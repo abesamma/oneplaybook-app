@@ -31,6 +31,9 @@ const Footer = () => {
                 <a href="/privacy">Privacy Policy</a>
               </li>
               <li>
+                <a href="/license">End User License</a>
+              </li>
+              <li>
                 <a href="https://tiddlywiki.com">TiddlyWiki</a>
               </li>
             </ul>
