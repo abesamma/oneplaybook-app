@@ -28,7 +28,6 @@ class Button extends Component {
         ${this.sizes[this.size] || this.sizes.default}
         ${this.className}
         rounded
-        text-white
     `}
         >
           {this.props.children}

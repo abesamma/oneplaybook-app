@@ -95,14 +95,16 @@ p {
   background: #FF512F;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
   background: linear-gradient(to right, #DD2476, #FF512F);
+  color: white;
 }
 .primary-text-bg {
-  background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
+  /* background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background: linear-gradient(to right, #DD2476, #FF512F);
   background-clip: text;
-  color: transparent;
+  color: transparent; */
+  color: #DD2476;
 }
 
 @tailwind components;
