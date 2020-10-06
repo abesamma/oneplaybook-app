@@ -26,7 +26,7 @@ export default () => (
       <meta name="title" content="OnePlaybook — Learn, Think and Build Together" />
       <meta
         name="description"
-        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more, at low cost."
+        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that mindfully, and without burning out."
       />
 
       {/* Open Graph / Facebook */}
