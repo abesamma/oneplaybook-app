@@ -149,8 +149,8 @@ const AppContainer = ({ className, controls }) => {
                 onClick={decrementIndex}
                 className={
                   activeIndex > 0
-                    ? 'visible primary-text-bg font-body font-bold text-sm py-3 px-8 rounded text-white'
-                    : 'invisible primary-text-bg font-body font-bold text-sm py-3 px-8 rounded text-white'
+                    ? 'visible primary-text-bg font-body font-bold text-sm py-3 px-8 rounded'
+                    : 'invisible primary-text-bg font-body font-bold text-sm py-3 px-8 rounded'
                 }
               >
                 Back
@@ -159,7 +159,7 @@ const AppContainer = ({ className, controls }) => {
                 <button
                   type="button"
                   onClick={controls} // method to close app
-                  className="visible primary font-body font-bold py-3 px-8 rounded text-white"
+                  className="visible primary font-body font-bold py-3 px-8 rounded"
                 >
                   Finish
                 </button>
@@ -169,7 +169,7 @@ const AppContainer = ({ className, controls }) => {
                     type="button"
                     disabled={loading}
                     onClick={checkFormThenIncrement}
-                    className="visible primary font-body font-bold py-3 px-8 rounded text-white"
+                    className="visible primary font-body font-bold py-3 px-8 rounded"
                   >
                     {activeIndex === 2 ? 'Submit' : 'Next'}
                   </button>
