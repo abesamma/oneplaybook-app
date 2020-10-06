@@ -9,11 +9,12 @@ const CookieBanner = () => {
     expand: false,
     dismiss: false
   });
-  (function checkCookieStatus() {
-    if (checkForCookie('opb-clicky-accept-status=true'))
-      setCookieBannerState({ ...(cookieBannerState && { dismiss: true }) });
-  })();
   const [acceptCookieState, setAcceptCookieState] = React.useState(false);
+  React.useEffect(() => {
+    if (checkForCookie('opb-clicky-accept-status=true'))
+      return () => setCookieBannerState({ ...(cookieBannerState && { dismiss: true }) });
+    return () => setCookieBannerState({ ...cookieBannerState });
+  });
   React.useEffect(() => {
     return () => setCookie('opb-clicky-accept-status=true');
   }, [acceptCookieState]);
