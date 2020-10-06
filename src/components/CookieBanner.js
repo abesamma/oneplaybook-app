@@ -11,9 +11,8 @@ const result = checkForCookie('opb-clicky-accept-status=true');
 const CookieBanner = () => {
   const [cookieBannerState, setCookieBannerState] = React.useState({
     expand: false,
-    dismiss: true
+    dismiss: result
   });
-  if (result) setCookieBannerState({ ...(cookieBannerState && { dismiss: false }) });
   const [acceptCookieState, setAcceptCookieState] = React.useState(false);
   React.useEffect(() => {
     return () => setCookie('opb-clicky-accept-status=true');
@@ -35,7 +34,7 @@ const CookieBanner = () => {
   return (
     <Banner
       className={
-        cookieBannerState.dismiss
+        cookieBannerState.dismiss === true
           ? 'hidden'
           : 'fixed bottom-0 mb-12 p-4 bg-white h-auto w-full rounded lg:w-1/2 lg:ml-8'
       }

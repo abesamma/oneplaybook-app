@@ -4,10 +4,7 @@ import Footer from './Footer';
 import Header from './Header';
 import ClickyAnalytics from '../ClickyAnalytics';
 
-const checkForCookie = (cookie) => {
-  const cookiePresent = document.cookie.split(';').some(item => item.includes(cookie));
-  return cookiePresent;
-};
+const checkForCookie = cookie => document.cookie.split(';').some(item => item.includes(cookie));
 
 const result = checkForCookie('opb-clicky-accept-status=true');
 
