@@ -7,14 +7,9 @@ import checkForCookie from './utils/checkForCookie';
 const CookieBanner = () => {
   const [cookieBannerState, setCookieBannerState] = React.useState({
     expand: false,
-    dismiss: false
+    dismiss: checkForCookie('opb-clicky-accept-status=true')
   });
   const [acceptCookieState, setAcceptCookieState] = React.useState(false);
-  React.useEffect(() => {
-    if (checkForCookie('opb-clicky-accept-status=true'))
-      return () => setCookieBannerState({ ...(cookieBannerState && { dismiss: true }) });
-    return () => setCookieBannerState({ ...cookieBannerState });
-  });
   React.useEffect(() => {
     return () => setCookie('opb-clicky-accept-status=true');
   }, [acceptCookieState]);
