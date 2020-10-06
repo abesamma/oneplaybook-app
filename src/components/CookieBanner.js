@@ -1,11 +1,17 @@
 import React from 'react';
+import { document } from 'browser-monads';
 import Banner from './Banner';
 import Button from './Button';
 import setCookie from './utils/setCookie';
-import checkForCookie from './utils/checkForCookie';
+
+const checkForCookie = (cookie) => {
+  const cookiePresent = document.cookie.split(';').some(item => item.includes(cookie));
+  return cookiePresent;
+};
+
+const result = checkForCookie('opb-clicky-accept-status=true');
 
 const CookieBanner = () => {
-  const result = checkForCookie('opb-clicky-accept-status=true');
   const [cookieBannerState, setCookieBannerState] = React.useState({
     expand: false,
     dismiss: result

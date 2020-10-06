@@ -3,12 +3,16 @@ import { document } from 'browser-monads';
 import Footer from './Footer';
 import Header from './Header';
 import ClickyAnalytics from '../ClickyAnalytics';
-import checkForCookie from '../utils/checkForCookie';
 
-const cookiePresent = checkForCookie('opb-clicky-accept-status=true');
+const checkForCookie = (cookie) => {
+  const cookiePresent = document.cookie.split(';').some(item => item.includes(cookie));
+  return cookiePresent;
+};
+
+const result = checkForCookie('opb-clicky-accept-status=true');
 
 const Layout = ({ children }) => {
-  const [cookieStatus, setCookieStatus] = React.useState(cookiePresent);
+  const [cookieStatus, setCookieStatus] = React.useState(result);
   const checker = event => {
     if (event.detail.cookie) {
       setCookieStatus(true);
