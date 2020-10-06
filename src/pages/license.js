@@ -9,8 +9,8 @@ export default () => (
       <meta charSet="utf-8" />
       <link rel="canonical" href="https://oneplaybook.app/license" />
       {/* Primary Meta Tags */}
-      <title>License — OnePlaybook — Learn, Think and Build, Together</title>
-      <meta name="title" content="License — OnePlaybook — Learn, Think and Build, Together" />
+      <title>License — OnePlaybook — Learn, Think and Build Together</title>
+      <meta name="title" content="License — OnePlaybook — Learn, Think and Build Together" />
       <meta
         name="description"
         content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more, at low cost."
@@ -21,7 +21,7 @@ export default () => (
       <meta property="og:url" content="https://oneplaybook.app/license" />
       <meta
         property="og:title"
-        content="Privacy Policy — OnePlaybook — Learn, Think and Build, Together"
+        content="Privacy Policy — OnePlaybook — Learn, Think and Build Together"
       />
       <meta
         property="og:description"
@@ -34,7 +34,7 @@ export default () => (
       <meta property="twitter:url" content="https://oneplaybook.app/license" />
       <meta
         property="twitter:title"
-        content="Privacy Policy — OnePlaybook — Learn, Think and Build, Together"
+        content="Privacy Policy — OnePlaybook — Learn, Think and Build Together"
       />
       <meta
         property="twitter:description"

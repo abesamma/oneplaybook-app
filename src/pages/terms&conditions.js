@@ -10,10 +10,10 @@ export default () => (
     <meta charSet="utf-8" />
     <link rel="canonical" href="https://oneplaybook.app/terms&conditions" />
     {/* Primary Meta Tags */}
-    <title>Terms & Conditions — OnePlaybook — Learn, Think and Build, Together</title>
+    <title>Terms & Conditions — OnePlaybook — Learn, Think and Build Together</title>
     <meta
       name="title"
-      content="Terms & Conditions — OnePlaybook — Learn, Think and Build, Together"
+      content="Terms & Conditions — OnePlaybook — Learn, Think and Build Together"
     />
     <meta
       name="description"
@@ -25,7 +25,7 @@ export default () => (
     <meta property="og:url" content="https://oneplaybook.app/terms&conditions" />
     <meta
       property="og:title"
-      content="Terms & Conditions — OnePlaybook — Learn, Think and Build, Together"
+      content="Terms & Conditions — OnePlaybook — Learn, Think and Build Together"
     />
     <meta
       property="og:description"
@@ -38,7 +38,7 @@ export default () => (
     <meta property="twitter:url" content="https://oneplaybook.app/terms&conditions" />
     <meta
       property="twitter:title"
-      content="Terms & Conditions — OnePlaybook — Learn, Think and Build, Together"
+      content="Terms & Conditions — OnePlaybook — Learn, Think and Build Together"
     />
     <meta
       property="twitter:description"

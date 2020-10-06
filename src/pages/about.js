@@ -10,8 +10,8 @@ export default () => (
       <meta charSet="utf-8" />
       <link rel="canonical" href="https://oneplaybook.app/about" />
       {/* Primary Meta Tags */}
-      <title>About — OnePlaybook — Learn, Think and Build, Together</title>
-      <meta name="title" content="About — OnePlaybook — Learn, Think and Build, Together" />
+      <title>About — OnePlaybook — Learn, Think and Build Together</title>
+      <meta name="title" content="About — OnePlaybook — Learn, Think and Build Together" />
       <meta
         name="description"
         content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more, at low cost."
@@ -20,7 +20,7 @@ export default () => (
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://oneplaybook.app/about" />
-      <meta property="og:title" content="About — OnePlaybook — Learn, Think and Build, Together" />
+      <meta property="og:title" content="About — OnePlaybook — Learn, Think and Build Together" />
       <meta
         property="og:description"
         content="Codify knowledge to transform how you learn & think. Build low code apps quickly to do amazing things. Then invite anyone to do it all together."
@@ -32,7 +32,7 @@ export default () => (
       <meta property="twitter:url" content="https://oneplaybook.app/about" />
       <meta
         property="twitter:title"
-        content="About — OnePlaybook — Learn, Think and Build, Together"
+        content="About — OnePlaybook — Learn, Think and Build Together"
       />
       <meta
         property="twitter:description"

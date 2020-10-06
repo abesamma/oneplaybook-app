@@ -10,14 +10,14 @@ export default () => (
       <meta charSet="utf-8" />
       <link rel="canonical" href="https://oneplaybook.app" />
       {/* Primary Meta Tags */}
-      <title>404 — OnePlaybook — Learn, Think and Build, Together</title>
-      <meta name="title" content="404 — OnePlaybook — Learn, Think and Build, Together" />
+      <title>404 — OnePlaybook — Learn, Think and Build Together</title>
+      <meta name="title" content="404 — OnePlaybook — Learn, Think and Build Together" />
       <meta name="description" content="404 Not Found" />
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://oneplaybook.app" />
-      <meta property="og:title" content="404 — OnePlaybook — Learn, Think and Build, Together" />
+      <meta property="og:title" content="404 — OnePlaybook — Learn, Think and Build Together" />
       <meta property="og:description" content="404 Not Found" />
       <meta property="og:image" content={MetaImg} />
 
@@ -26,7 +26,7 @@ export default () => (
       <meta property="twitter:url" content="https://oneplaybook.app" />
       <meta
         property="twitter:title"
-        content="404 — OnePlaybook — Learn, Think and Build, Together"
+        content="404 — OnePlaybook — Learn, Think and Build Together"
       />
       <meta property="twitter:description" content="404 Not Found" />
       <meta property="twitter:image" content={MetaImg} />
