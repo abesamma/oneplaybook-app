@@ -17,7 +17,7 @@ export default {
   problem: [
     '',
     'excessive software subscriptions',
-    'cost-effective paperless management',
+    'knowledge management',
     'incomplete personal projects',
     'goals tracking',
     'tasks tracking',
