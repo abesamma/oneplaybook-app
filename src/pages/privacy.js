@@ -9,7 +9,7 @@ export default () => (
       <meta charSet="utf-8" />
       <link rel="canonical" href="https://oneplaybook.app/privacy" />
       {/* Primary Meta Tags */}
-      <title>About — OnePlaybook — Learn, Think and Build Together</title>
+      <title>Privacy — OnePlaybook — Learn, Think and Build Together</title>
       <meta
         name="title"
         content="Privacy Policy — OnePlaybook — Learn, Think and Build Together"
