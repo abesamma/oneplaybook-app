@@ -4,9 +4,9 @@ import Banner from './Banner';
 import Button from './Button';
 import setCookie from './utils/setCookie';
 
-const checkForCookie = cookie => document.cookie.split(';').some(item => item.includes(cookie));
+const checkForCookie = () => document.cookie.split(';').some(item => item.includes('opb-clicky-accept-status'));
 
-const result = checkForCookie('opb-clicky-accept-status=true');
+const result = checkForCookie();
 
 const CookieBanner = () => {
   const [cookieBannerState, setCookieBannerState] = React.useState({
@@ -15,7 +15,8 @@ const CookieBanner = () => {
   });
   const [acceptCookieState, setAcceptCookieState] = React.useState(false);
   React.useEffect(() => {
-    return () => setCookie('opb-clicky-accept-status=true');
+    if (acceptCookieState) return () => setCookie('opb-clicky-accept-status=true');
+	return () => setCookie('opb-clicky-accept-status=false');
   }, [acceptCookieState]);
   const acceptCookie = () => {
     setCookieBannerState({ ...(cookieBannerState && { dismiss: true }) });
