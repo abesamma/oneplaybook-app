@@ -4,9 +4,9 @@ import Footer from './Footer';
 import Header from './Header';
 import ClickyAnalytics from '../ClickyAnalytics';
 
-const checkForCookie = cookie => document.cookie.split(';').some(item => item.includes(cookie));
+const checkForCookie = () => document.cookie.split(';').some(item => item.includes('opb-clicky-accept-status'));
 
-const result = checkForCookie('opb-clicky-accept-status=true');
+const result = checkForCookie();
 
 const Layout = ({ children }) => {
   const [cookieStatus, setCookieStatus] = React.useState(result);
