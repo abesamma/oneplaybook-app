@@ -47,7 +47,7 @@ const TesterRegistration = () => {
         What about you?
       </Typography>
       <Typography variant="body2">
-        Please tell describe yourself so that the testing experience can be tailored to your
+        Please describe yourself so that the testing experience can be tailored to your
         particular background and project needs.
       </Typography>
       <form
