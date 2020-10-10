@@ -16,7 +16,7 @@ const Footer = () => {
                 ❤️
               </span>{' '}
               by{' '}
-              <a target="_blank" rel="noopener noreferrer" href="https://abesamma.github.io">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/abesamma">
                 Abraham Samma
               </a>
             </p>
@@ -42,10 +42,10 @@ const Footer = () => {
             <h2 className="text-lg font-semibold">Social Media</h2>
             <ul className="mt-4 leading-loose">
               <li>
-                <a href="https://twitter.com/ABSamma">Twitter</a>
+                <a href="https://twitter.com/One_Playbook">Twitter</a>
               </li>
               <li>
-                <a href="https://github.com/abesamma">GitHub</a>
+                <a href="https://github.com/abesamma/oneplaybook">GitHub</a>
               </li>
             </ul>
           </div>
