@@ -4,7 +4,8 @@ import Footer from './Footer';
 import Header from './Header';
 import ClickyAnalytics from '../ClickyAnalytics';
 
-const checkForCookie = () => document.cookie.split(';').some(item => item.includes('opb-clicky-accept-status=true')); //check if set true
+const checkForCookie = () =>
+  document.cookie.split(';').some(item => item.includes('opb-clicky-accept-status=true')); // check if set true
 
 const result = checkForCookie();
 
@@ -24,7 +25,7 @@ const Layout = ({ children }) => {
         <main className="text-gray-900">{children}</main>
         <Footer />
       </div>
-      {cookieStatus && <ClickyAnalytics />}
+      {cookieStatus === true ? <ClickyAnalytics /> : <div />}
     </>
   );
 };
