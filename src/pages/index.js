@@ -14,7 +14,6 @@ import AppsIllustration from '../svg/AppsIllustration';
 import BuildIllustration from '../svg/BuildIllustration';
 import Setup from '../svg/Setup';
 import MetaImg from '../assets/meta_image.png';
-import CookieBanner from '../components/CookieBanner';
 
 export default () => (
   <>
@@ -75,11 +74,11 @@ export default () => (
               with others like you, <span className="primary-text-bg font-bold">Oneplaybook</span>{' '}
               can help you do all that and more, at low cost. Coming soon!
             </p>
-            <p className="mt-8 md:mt-6">
+            <div className="mt-8 md:mt-6">
               <CtaButton className="primary font-body font-bold" size="lg">
                 Join Waitlist
               </CtaButton>
-            </p>
+            </div>
             <p className="mt-4">
               Powered by & for{' '}
               <a
@@ -231,13 +230,12 @@ export default () => (
         <p className="mt-8 text-xl font-light">
           Behind every successful project is a team with a good playbook. Let&apos;s do this!
         </p>
-        <p className="mt-8">
+        <div className="mt-8">
           <CtaButton className="primary font-bold" size="xl">
             Join Waitlist
           </CtaButton>
-        </p>
+        </div>
       </section>
-      <CookieBanner />
     </Layout>
   </>
 );
