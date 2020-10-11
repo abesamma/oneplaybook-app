@@ -15,7 +15,7 @@ module.exports = {
         description: `Oneplaybook app helps you learn, think and build awesome things with anyone easily.`,
         lang: `en`,
         start_url: `/`,
-        background_color: `#dd2476`,
+        background_color: `#fff5f7`,
         theme_color: `#dd2476`,
         display: `standalone`,
         icon: `src/assets/icon.png`,
