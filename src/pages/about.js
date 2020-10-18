@@ -47,18 +47,23 @@ export default () => (
         </div>
         <div className="container mx-auto px-8 mt-4 text-center lg:text-justify">
           <p className="my-2">
-            <span className="primary-text-bg font-bold">Oneplaybook</span> is a small corner on the
-            Internet where your ideas can come to life, dance around with other people&apos;s ideas,
-            and manifest into digital produce that nourishes humankind instead of harming it. It is
-            akin to unspoiled digital land, ripe for cultivation by your mind; public knowledge
-            spaces linked by bi-directional links, communal digital gardens full of interesting
-            produce, and low code guilds shaping thoughts and processes into useful micro apps that
-            you can use to build more useful tools to do things better.
+            <span className="primary-text-bg font-bold">Oneplaybook</span> is a web app that allows
+            you to quickly get started with TiddlyWiki, the open source non-linear note taking app,
+            for personal as well as for teams. Unlink other software services,
+            <span className="primary-text-bg font-bold">Oneplaybook</span> offers you ways to keep
+            data on servers/cloud services you trust instead of asking you to host data on our
+            services.
           </p>
           <p className="my-2">
-            Behind all this is a vibrant community of thinkers and makers looking to build a better
-            world through one common playbook, powered by TiddlyWiki. Come friend, and join us on
-            this little adventure today!
+            Instead, the web app acts as an offline ready go between between your self hosted data
+            and application, giving you a managed app service experience while keeping your data in
+            your hands.
+          </p>
+          <p className="my-2">
+            We at <span className="primary-text-bg font-bold">Oneplaybook</span> are also constantly
+            creating new ways to organize and collaborate on knowledge between individuals and
+            teams. We welcome you to use our projects for free, and we also welcome you to the wider
+            TiddlyWiki community!
           </p>
           <div className="mt-6 flex justify-center">
             <CtaButton className="primary font-body font-bold" size="lg">
