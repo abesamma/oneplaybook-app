@@ -2,7 +2,7 @@
   "name": "oneplaybook",
   "author": "Abraham Samma",
   "version": "0.9.0",
-  "license": "MIT",
+  "license": " MPL-2.0",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build"
