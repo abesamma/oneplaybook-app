@@ -28,6 +28,13 @@ const AppContainer = ({ className, controls }) => {
   });
   const incrementIndex = () => setActiveIndex(activeIndex + 1);
   const decrementIndex = () => setActiveIndex(activeIndex - 1);
+  const addErrorListeners = xhr => {
+    xhr.addEventListener('error', () => {
+      alert(
+        'Sorry about that. Something went wrong. Try again later. If the problem persists, please contact us: oneplaybooklab@gmail.com.'
+      );
+    });
+  };
   // submits form one and two data all at once
   const submitFormTwo = formOneData => {
     // prepare form 2 data
@@ -42,6 +49,7 @@ const AppContainer = ({ className, controls }) => {
       }
       // actual submission to google sheets
       const request = new XMLHttpRequest();
+      addErrorListeners(request);
       request.open('POST', formTwo.action);
       request.send(formTwoData);
       // remove listener to prevent duplication of submits
