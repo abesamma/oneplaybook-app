@@ -10,9 +10,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `OnePlaybook app`,
-        short_name: `OnePlaybook`,
-        description: `Oneplaybook app helps you learn, think and build awesome things with anyone easily.`,
+        name: `OnePlaybook`,
+        description: `Oneplaybook helps you learn, think and build awesome things with anyone easily.`,
         lang: `en`,
         start_url: `/`,
         background_color: `#fff5f7`,
