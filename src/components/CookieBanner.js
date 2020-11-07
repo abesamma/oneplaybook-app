@@ -22,9 +22,9 @@ const CookieBanner = () => {
   // eslint-disable-next-line consistent-return
   React.useEffect(() => {
     if (acceptCookieState && cookieBannerState.dismiss)
-      return setCookie('opb-clicky-accept-status=true;samesite=lax');
+      return setCookie('opb-clicky-accept-status=true;domain=oneplaybook.app;samesite=lax');
     if (!acceptCookieState && cookieBannerState.dismiss)
-      return setCookie('opb-clicky-accept-status=false;samesite=lax');
+      return setCookie('opb-clicky-accept-status=true;domain=oneplaybook.app;samesite=lax');
   }, [acceptCookieState, cookieBannerState]);
   const acceptCookie = () => {
     setCookieBannerState({ ...(cookieBannerState && { dismiss: true }) });
