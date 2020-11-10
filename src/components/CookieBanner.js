@@ -11,12 +11,12 @@ const setCookie = (cookie = '') => {
   document.cookie = cookie;
 };
 
-const result = checkForCookie();
+const cookiePresent = checkForCookie();
 
 const CookieBanner = () => {
   const [cookieBannerState, setCookieBannerState] = React.useState({
     expand: false,
-    dismiss: result
+    dismiss: false
   });
   const [acceptCookieState, setAcceptCookieState] = React.useState(false);
   // eslint-disable-next-line consistent-return
@@ -42,7 +42,7 @@ const CookieBanner = () => {
   };
   return (
     <>
-      <Banner
+      {cookiePresent ? <Banner
         className={
           cookieBannerState.dismiss === true
             ? 'hidden'
@@ -108,8 +108,8 @@ const CookieBanner = () => {
             </Button>
           </div>
         </div>
-      </Banner>
-      {result && <ClickyAnalytics />}
+      </Banner> : null}
+      {cookiePresent && <ClickyAnalytics />}
     </>
   );
 };
