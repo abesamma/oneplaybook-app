@@ -42,7 +42,7 @@ const CookieBanner = () => {
   };
   return (
     <>
-      {cookiePresent ? <Banner
+      {cookiePresent ? null : <Banner
         className={
           cookieBannerState.dismiss === true
             ? 'hidden'
@@ -108,7 +108,7 @@ const CookieBanner = () => {
             </Button>
           </div>
         </div>
-      </Banner> : null}
+      </Banner>}
       {cookiePresent && <ClickyAnalytics />}
     </>
   );
