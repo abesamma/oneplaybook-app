@@ -56,8 +56,8 @@ export default () => (
               Oneplaybook is where teams can think & get awesome stuff done{' '}
               <span className="emphasis">together</span>
             </h1>
-            <p className="font-body text-md md: text-lg mt-4">
-              Whether you need a second brain to help you organize your research, manage a project,
+            <p className="font-body text-md md:text-lg mt-6">
+              Whether you need a second brain to help you organize your research, manage projects and tasks,
               or are looking into cultivating a{' '}
               <a
                 className="underline"
