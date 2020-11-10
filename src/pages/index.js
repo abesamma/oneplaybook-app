@@ -21,30 +21,30 @@ export default () => (
       <meta charSet="utf-8" />
       <link rel="canonical" href="https://oneplaybook.app" />
       {/* Primary Meta Tags */}
-      <title>OnePlaybook — Learn, Think and Build Together</title>
-      <meta name="title" content="OnePlaybook — Learn, Think and Build Together" />
+      <title>OnePlaybook — Where Teams Think Together</title>
+      <meta name="title" content="OnePlaybook — Where Teams Think Together" />
       <meta
         name="description"
-        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that mindfully, and without burning out."
+        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more."
       />
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://oneplaybook.app" />
-      <meta property="og:title" content="OnePlaybook — Learn, Think and Build Together" />
+      <meta property="og:title" content="OnePlaybook — Where Teams Think Together" />
       <meta
         property="og:description"
-        content="Codify knowledge to transform how you learn & think. Build low code apps quickly to do amazing things. Then invite anyone to do it all together."
+        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more."
       />
       <meta property="og:image" content={MetaImg} />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://oneplaybook.app" />
-      <meta property="twitter:title" content="OnePlaybook — Learn, Think and Build Together" />
+      <meta property="twitter:title" content="OnePlaybook — Where Teams Think Together" />
       <meta
         property="twitter:description"
-        content="Codify knowledge to transform how you learn & think. Build low code apps quickly to do amazing things. Then invite anyone to do it all together."
+        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more."
       />
       <meta property="twitter:image" content={MetaImg} />
     </Helmet>
@@ -53,16 +53,12 @@ export default () => (
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Oneplaybook is where everyone learns, builds & profits{' '}
+              Oneplaybook is where teams can think & get awesome stuff done{' '}
               <span className="emphasis">together</span>
             </h1>
-            <p className="font-body text-md md:text-lg mt-6">
-              Codify knowledge to transform how you learn & think. Build low code apps quickly to do
-              amazing things. Then invite anyone to do it all together.
-            </p>
             <p className="font-body text-md md: text-lg mt-4">
-              Whether you need a second brain to help you plan a thesis, manage a project, or are
-              looking into cultivating a{' '}
+              Whether you need a second brain to help you organize your research, manage a project,
+              or are looking into cultivating a{' '}
               <a
                 className="underline"
                 href="https://maggieappleton.com/garden-history"

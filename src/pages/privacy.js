@@ -6,17 +6,14 @@ import MetaImg from '../assets/meta_image.png';
 export default () => (
   <>
     <Helmet>
-      <meta charSet="utf-8" />
+    <meta charSet="utf-8" />
       <link rel="canonical" href="https://oneplaybook.app/privacy" />
       {/* Primary Meta Tags */}
-      <title>Privacy — OnePlaybook — Learn, Think and Build Together</title>
-      <meta
-        name="title"
-        content="Privacy Policy — OnePlaybook — Learn, Think and Build Together"
-      />
+      <title>Privacy Policy — OnePlaybook — Where Teams Think Together</title>
+      <meta name="title" content="Privacy Policy — OnePlaybook — Where Teams Think Together" />
       <meta
         name="description"
-        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more, at low cost."
+        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more."
       />
 
       {/* Open Graph / Facebook */}
@@ -24,11 +21,11 @@ export default () => (
       <meta property="og:url" content="https://oneplaybook.app/privacy" />
       <meta
         property="og:title"
-        content="Privacy Policy — OnePlaybook — Learn, Think and Build Together"
+        content="Privacy Policy — OnePlaybook — Where Teams Think Together"
       />
       <meta
         property="og:description"
-        content="Codify knowledge to transform how you learn & think. Build low code apps quickly to do amazing things. Then invite anyone to do it all together."
+        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more."
       />
       <meta property="og:image" content={MetaImg} />
 
@@ -37,11 +34,11 @@ export default () => (
       <meta property="twitter:url" content="https://oneplaybook.app/privacy" />
       <meta
         property="twitter:title"
-        content="Privacy Policy — OnePlaybook — Learn, Think and Build Together"
+        content="Privacy Policy — OnePlaybook — Where Teams Think Together"
       />
       <meta
         property="twitter:description"
-        content="Codify knowledge to transform how you learn & think. Build low code apps quickly to do amazing things. Then invite anyone to do it all together."
+        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more."
       />
       <meta property="twitter:image" content={MetaImg} />
     </Helmet>

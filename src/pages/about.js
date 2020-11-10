@@ -10,33 +10,30 @@ export default () => (
       <meta charSet="utf-8" />
       <link rel="canonical" href="https://oneplaybook.app/about" />
       {/* Primary Meta Tags */}
-      <title>About — OnePlaybook — Learn, Think and Build Together</title>
-      <meta name="title" content="About — OnePlaybook — Learn, Think and Build Together" />
+      <title>About — OnePlaybook — Where Teams Think Together</title>
+      <meta name="title" content="About — OnePlaybook — Where Teams Think Together" />
       <meta
         name="description"
-        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more, at low cost."
+        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more."
       />
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://oneplaybook.app/about" />
-      <meta property="og:title" content="About — OnePlaybook — Learn, Think and Build Together" />
+      <meta property="og:title" content="About — OnePlaybook — Where Teams Think Together" />
       <meta
         property="og:description"
-        content="Codify knowledge to transform how you learn & think. Build low code apps quickly to do amazing things. Then invite anyone to do it all together."
+        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more."
       />
       <meta property="og:image" content={MetaImg} />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://oneplaybook.app/about" />
-      <meta
-        property="twitter:title"
-        content="About — OnePlaybook — Learn, Think and Build Together"
-      />
+      <meta property="twitter:title" content="About — OnePlaybook — Where Teams Think Together" />
       <meta
         property="twitter:description"
-        content="Codify knowledge to transform how you learn & think. Build low code apps quickly to do amazing things. Then invite anyone to do it all together."
+        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more."
       />
       <meta property="twitter:image" content={MetaImg} />
     </Helmet>
@@ -49,15 +46,15 @@ export default () => (
           <p className="my-2">
             <span className="primary-text-bg font-bold">Oneplaybook</span> is a web app that allows
             you to quickly get started with TiddlyWiki, the open source non-linear note taking app,
-            for personal as well as for teams. Unlink other software services,
+            for personal as well as for teams. Unlink other software services,{' '}
             <span className="primary-text-bg font-bold">Oneplaybook</span> offers you ways to keep
-            data on servers/cloud services you trust instead of asking you to host data on our
-            services.
+            data on servers/cloud services you trust instead of forcing you into our own solution.
+            In fact, we don&apos;t have any servers to begin with for you to worry about!
           </p>
           <p className="my-2">
-            Instead, the web app acts as an offline ready go between between your self hosted data
-            and application, giving you a managed app service experience while keeping your data in
-            your hands.
+            Instead, this web app acts as an offline-ready go-between for you and your self hosted
+            data, giving you a managed app service experience while keeping your data firmly in your
+            hands.
           </p>
           <p className="my-2">
             We at <span className="primary-text-bg font-bold">Oneplaybook</span> are also constantly
