@@ -1,10 +1,8 @@
 import React from 'react';
-import splitscript from '../scripts/clicky-split-test-script.js';
 
 const ClickyAnalytics = () => {
   return (
     <>
-      <script src={splitscript} />
       <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101280810);</script>
       <script async src="https://static.getclicky.com/js" crossOrigin="anonymous" />
       <noscript>
