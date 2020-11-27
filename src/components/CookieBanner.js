@@ -5,7 +5,7 @@ import Button from './Button';
 import ClickyAnalytics from './ClickyAnalytics';
 
 const checkForCookie = () =>
-  document.cookie.split(';').some(item => item.includes('opb-clicky-accept-status'));
+  document.cookie.split(';').some(item => item.includes('opb-clicky-accept-status=true'));
 
 const setCookie = (cookie = '') => {
   document.cookie = cookie;
@@ -22,9 +22,9 @@ const CookieBanner = () => {
   // eslint-disable-next-line consistent-return
   React.useEffect(() => {
     if (acceptCookieState && cookieBannerState.dismiss)
-      return setCookie('opb-clicky-accept-status=true;domain=oneplaybook.app;samesite=lax;max-age=31536000');
+      return setCookie('opb-clicky-accept-status=true;samesite=lax;max-age=31536000');
     if (!acceptCookieState && cookieBannerState.dismiss)
-      return setCookie('opb-clicky-accept-status=false;domain=oneplaybook.app;samesite=lax;max-age=31536000');
+      return setCookie('opb-clicky-accept-status=false;samesite=lax;max-age=31536000');
   }, [acceptCookieState, cookieBannerState]);
   const acceptCookie = () => {
     setCookieBannerState({ ...(cookieBannerState && { dismiss: true }) });
