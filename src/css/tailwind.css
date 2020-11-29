@@ -8,6 +8,19 @@
 :root {
   --ggs: 2;
 }
+
+@media (orientation: portrait) {
+  #app {
+    height: 100vh;
+  }
+}
+
+@media (orientation: landscape) {
+  #app {
+    height: calc(100% + 100vh);
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }

@@ -22,7 +22,7 @@ const CtaButton = props => {
         {props.children}
       </Button>
       <Dialog fullScreen open={open} onClose={handleClose}>
-        <div className="primary w-screen h-screen">
+        <div id="app" className="primary w-full">
           <div className="flex justify-end pt-4 pr-4">
             <IconButton
               className="icon-button"
