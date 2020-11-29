@@ -5,7 +5,7 @@ import Button from './Button';
 import ClickyAnalytics from './ClickyAnalytics';
 
 const checkForCookie = () =>
-  document.cookie.split(';').some(item => item.includes('opb-clicky-accept-status=true'));
+  document.cookie.split(';').some(item => item.includes('opb-clicky-accept-status'));
 
 const setCookie = (cookie = '') => {
   document.cookie = cookie;
