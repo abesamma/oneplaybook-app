@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import CtaButton from '../components/CtaButton';
 import Card from '../components/Card';
 import CustomerCard from '../components/CustomerCard';
@@ -13,29 +14,61 @@ import AppsIllustration from '../svg/AppsIllustration';
 import BuildIllustration from '../svg/BuildIllustration';
 import Setup from '../svg/Setup';
 import MetaImg from '../assets/meta_image.png';
-import Seo from '../components/Seo';
 
 export default () => (
   <>
-    <Seo
-      href="https://oneplaybook.app"
-      title="OnePlaybook — Where Teams Think Together"
-      metaImg={MetaImg}
-      description=" Oneplaybook: a self-hosted project management tool for you and your team."
-    />
+    <Helmet>
+      <meta charSet="utf-8" />
+      <link rel="canonical" href="https://oneplaybook.app" />
+      {/* Primary Meta Tags */}
+      <title>OnePlaybook — Where Teams Think Together</title>
+      <meta name="title" content="OnePlaybook — Where Teams Think Together" />
+      <meta
+        name="description"
+        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more."
+      />
+
+      {/* Open Graph / Facebook */}
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://oneplaybook.app" />
+      <meta property="og:title" content="OnePlaybook — Where Teams Think Together" />
+      <meta
+        property="og:description"
+        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more."
+      />
+      <meta property="og:image" content={MetaImg} />
+
+      {/* Twitter */}
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://oneplaybook.app" />
+      <meta property="twitter:title" content="OnePlaybook — Where Teams Think Together" />
+      <meta
+        property="twitter:description"
+        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more."
+      />
+      <meta property="twitter:image" content={MetaImg} />
+    </Helmet>
     <Layout>
       <section className="pt-12">
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Oneplaybook: a self-hosted project management tool for you & your team
+              Oneplaybook is where teams can think & get awesome stuff done{' '}
+              <span className="emphasis">together</span>
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
-              Whether you need a second brain to help you organize your research, manage projects
-              and tasks, or automate some tasks in your busy life,{' '}
-              <span className="primary-text-bg font-bold">Oneplaybook</span> can help you do all
-              that and more at low cost, and without surrendering control over your data, software
-              or privacy. Coming soon!
+              Whether you need a second brain to help you organize your research, manage projects and tasks,
+              or are looking into cultivating a{' '}
+              <a
+                className="underline"
+                href="https://maggieappleton.com/garden-history"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                digital garden
+              </a>{' '}
+              with others like you, <span className="primary-text-bg font-bold">Oneplaybook</span>{' '}
+              can help you do all that and more, at low cost. Coming soon!
             </p>
             <div className="mt-8 md:mt-6">
               <CtaButton className="primary font-body font-bold" size="lg">
