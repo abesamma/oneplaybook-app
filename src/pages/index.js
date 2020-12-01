@@ -1,5 +1,4 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import CtaButton from '../components/CtaButton';
 import Card from '../components/Card';
 import CustomerCard from '../components/CustomerCard';
