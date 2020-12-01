@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Helmet } from 'react-helmet';
 
 const Seo = ({ href, title, metaImg, description }) => {
   return (
-    <>
+    <Helmet>
       <meta charSet="utf-8" />
       <link rel="canonical" href={href} />
       {/* Primary Meta Tags */}
@@ -24,7 +25,7 @@ const Seo = ({ href, title, metaImg, description }) => {
       <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={description} />
       <meta property="twitter:image" content={metaImg} />
-    </>
+    </Helmet>
   );
 };
 

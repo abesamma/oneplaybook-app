@@ -1,5 +1,4 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import Layout from '../components/layout/Layout';
 import NotFoundIllustration from '../svg/NotFound';
 import MetaImg from '../assets/meta_image.png';
@@ -7,14 +6,12 @@ import Seo from '../components/Seo';
 
 export default () => (
   <>
-    <Helmet>
-      <Seo
-        href="https://oneplaybook.app"
-        title="404 — OnePlaybook — Where Teams Think Together"
-        metaImg={MetaImg}
-        description=" Oneplaybook: a self-hosted project management tool for you and your team."
-      />
-    </Helmet>
+    <Seo
+      href="https://oneplaybook.app"
+      title="404 — OnePlaybook — Where Teams Think Together"
+      metaImg={MetaImg}
+      description=" Oneplaybook: a self-hosted project management tool for you and your team."
+    />
     <Layout>
       <section className="pt-1">
         <div className="container mx-auto text-center text-4xl font-bold primary-text-bg">

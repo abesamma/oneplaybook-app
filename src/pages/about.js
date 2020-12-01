@@ -7,14 +7,12 @@ import Seo from '../components/Seo';
 
 export default () => (
   <>
-    <Helmet>
-      <Seo
-        href="https://oneplaybook.app/about"
-        title="About — OnePlaybook — Where Teams Think Together"
-        metaImg={MetaImg}
-        description=" Oneplaybook: a self-hosted project management tool for you and your team."
-      />
-    </Helmet>
+    <Seo
+      href="https://oneplaybook.app/about"
+      title="About — OnePlaybook — Where Teams Think Together"
+      metaImg={MetaImg}
+      description=" Oneplaybook: a self-hosted project management tool for you and your team."
+    />
     <Layout>
       <section className="pt-12">
         <div className="container mx-auto text-center">
