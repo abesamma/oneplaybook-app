@@ -31,11 +31,10 @@ export default () => (
               A self-hosted project management & collaboration tool for you & your team
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
-              Whether you need a second brain to help you organize your research, manage projects
-              and tasks, or automate some repetitive stuff in your busy life,{' '}
-              <span className="primary-text-bg font-bold">Oneplaybook</span> can help you do all
-              that and more at low cost, and without surrendering control over your data, software
-              or privacy. Coming soon!
+              <span className="primary-text-bg font-bold">Oneplaybook</span> acts as a single source
+              of truth for you and your team&apos;s project knowledge and activities. Keep
+              everything in one workspace and therefore everyone in the loop. Self-hosting
+              guarantees freedom and privacy. Coming soon!
             </p>
             <div className="mt-8 md:mt-6">
               <CtaButton className="primary font-body font-bold" size="lg">
