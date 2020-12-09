@@ -34,7 +34,7 @@ export default () => (
               <span className="primary-text-bg font-bold">Oneplaybook</span> acts as a single source
               of truth for you and your team&apos;s project knowledge and activities. Keep
               everything in one workspace and therefore everyone in the loop. Self-hosting
-              guarantees freedom and privacy. Coming soon!
+              guarantees your freedom and privacy. Coming soon!
             </p>
             <div className="mt-8 md:mt-6">
               <CtaButton className="primary font-body font-bold" size="lg">
