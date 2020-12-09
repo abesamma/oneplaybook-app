@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="flex-1 px-3">
             <h2 className="text-lg font-semibold">About</h2>
             <p className="mt-5">
-              Oneplaybook app is a self-hosted project management tool that helps you & your team
+              Oneplaybook app is a self-hosted project management & collaboration tool that helps you & your team
               think & get awesome stuff done together.
             </p>
             <p className="mt-2">

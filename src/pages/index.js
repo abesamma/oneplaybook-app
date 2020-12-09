@@ -28,11 +28,11 @@ export default () => (
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Oneplaybook: a self-hosted project management tool for you & your team
+              Oneplaybook: a self-hosted project management & collaboration tool for you & your team
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
               Whether you need a second brain to help you organize your research, manage projects
-              and tasks, or automate some tasks in your busy life,{' '}
+              and tasks, or automate some repetitive stuff in your busy life,{' '}
               <span className="primary-text-bg font-bold">Oneplaybook</span> can help you do all
               that and more at low cost, and without surrendering control over your data, software
               or privacy. Coming soon!
