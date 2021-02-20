@@ -114,7 +114,8 @@ export default () => (
             <h3 className="text-3xl font-header leading-tight">All knowledge in one place</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
               Keep all knowledge that is important to you and your team in one neat, accessible and
-			  organized workspace instead of scattering it all across multiple apps and web services.
+              organized workspace instead of scattering it all across multiple apps and web
+              services.
             </p>
           </div>
         }
@@ -138,8 +139,8 @@ export default () => (
           <div className="lg:pl-32 xl:pl-48">
             <h3 className="text-3xl font-header leading-tight">Accomodate any workflow</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
-              Oneplaybook allows you to integrate any workflow that you may favor via third party plugins
-			  and integrations
+              Oneplaybook allows you to integrate any workflow that you may favor via third party
+              plugins and integrations
             </p>
           </div>
         }
@@ -150,8 +151,8 @@ export default () => (
           <div className="lg:pr-32 xl:pr-48">
             <h3 className="text-3xl font-header leading-tight">Automate tedious work</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
-              Stay productive by turning tedious workflows and processes into low code applications to quickly
-              automate your life and get things done faster and more efficiently
+              Stay productive by turning tedious workflows and processes into low code applications
+              to quickly automate your life and get things done faster and more efficiently
             </p>
           </div>
         }
