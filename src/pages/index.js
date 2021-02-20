@@ -53,22 +53,13 @@ export default () => (
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Oneplaybook is where teams can think & get awesome stuff done{' '}
-              <span className="emphasis">together</span>
+              A free, self-hosted project management & collaboration tool for you & your team
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
-              Whether you need a second brain to help you organize your research, manage projects and tasks,
-              or are looking into cultivating a{' '}
-              <a
-                className="underline"
-                href="https://maggieappleton.com/garden-history"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                digital garden
-              </a>{' '}
-              with others like you, <span className="primary-text-bg font-bold">Oneplaybook</span>{' '}
-              can help you do all that and more, at low cost. Coming soon!
+              <span className="primary-text-bg font-bold">Oneplaybook</span> acts as a single source
+              of truth for you and your team&apos;s project knowledge and activities. Keep
+              everything in one workspace and therefore everyone in the loop. Self-hosting
+              guarantees your freedom and privacy. Coming soon!
             </p>
             <div className="mt-8 md:mt-6">
               <CtaButton className="primary font-body font-bold" size="lg">
@@ -145,11 +136,11 @@ export default () => (
         reverseOrder
         primarySlot={
           <div className="lg:pl-32 xl:pl-48">
-            <h3 className="text-3xl font-header leading-tight">Change how you learn and think</h3>
+            <h3 className="text-3xl font-header leading-tight">All knowledge in one place</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
-              Oneplaybook gives you new ways to acquire, derive and adapt new knowledge and skills
-              methodically with note taking tools, wikis and online research workflows that you can
-              customize as you see fit
+              Keep all knowledge that is important to you and your team in one neat, accessible and
+              organized workspace instead of scattering it all across multiple apps and web
+              services.
             </p>
           </div>
         }
@@ -158,11 +149,10 @@ export default () => (
       <SplitSection
         primarySlot={
           <div className="lg:pr-32 xl:pr-48">
-            <h3 className="text-3xl font-header leading-tight">Realtime remote collab</h3>
+            <h3 className="text-3xl font-header leading-tight">Collaboration made fun again</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
               Be remote ready by default. Invite team members with a simple link to work on stuff
-              together with realtime editing, video, audio and text chat without leaving the app. Or
-              you can invite the whole world to view, edit and create something new together
+              together in realtime or asynchronously in one neat workspace
             </p>
           </div>
         }
@@ -174,9 +164,8 @@ export default () => (
           <div className="lg:pl-32 xl:pl-48">
             <h3 className="text-3xl font-header leading-tight">Accomodate any workflow</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
-              Profit with the whole world; Oneplaybook allows you to also integrate many other
-              workflow that you may favor via plugins and custom templates shared by others with
-              similar needs
+              Oneplaybook allows you to integrate any workflow that you may favor via third party
+              plugins and integrations
             </p>
           </div>
         }
@@ -185,11 +174,10 @@ export default () => (
       <SplitSection
         primarySlot={
           <div className="lg:pr-32 xl:pr-48">
-            <h3 className="text-3xl font-header leading-tight">Create transformative apps</h3>
+            <h3 className="text-3xl font-header leading-tight">Automate tedious work</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
-              Turn your productivity workflows and processes into low code applications to quickly
-              automate your life and get things done faster and more efficiently. No software
-              expertise required
+              Stay productive by turning tedious workflows and processes into low code applications
+              to quickly automate your life and get things done faster and more efficiently
             </p>
           </div>
         }

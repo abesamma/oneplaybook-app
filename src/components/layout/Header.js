@@ -24,7 +24,7 @@ const Header = () => {
     <a href="/#top">
       <LogoIcon />
     </a>
-  )
+  );
   const menuItems = (
     <>
       <AnchorLink
