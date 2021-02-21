@@ -32,10 +32,10 @@ export default () => (
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you easily create
-              custom digital workspaces to that act as a single source of truth for you and your
+              custom digital workspaces that act as a single source of truth for you and your
               team&apos;s knowledge and collaborative work with the free and open source TiddlyWiki
-              app so you can keep everyone aligned, efficient and consistent with one app. Available
-              app. Available as a self-hosted or cloud-based service. Coming soon!
+              app, so you can keep everyone aligned, efficient and consistent with one app.
+              Available as a self-hosted or cloud-based service. Coming soon!
             </p>
             <div className="mt-8 md:mt-6">
               <CtaButton className="primary font-body font-bold" size="lg">
