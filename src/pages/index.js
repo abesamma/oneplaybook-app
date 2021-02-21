@@ -19,22 +19,23 @@ export default () => (
   <>
     <Seo
       href="https://oneplaybook.app"
-      title="OnePlaybook — Where Teams Think Together"
+      title="Smarter work | Oneplaybook"
       metaImg={MetaImg}
-      description=" Oneplaybook: a self-hosted project management tool for you and your team."
+      description="Oneplaybook: manage your knowledge and work better with TiddlyWiki."
     />
     <Layout>
       <section className="pt-12">
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              A free, self-hosted project management & collaboration tool for you & your team
+              Knowledge management and effective collaboration made better with TiddlyWiki
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
-              <span className="primary-text-bg font-bold">Oneplaybook</span> acts as a single source
-              of truth for you and your team&apos;s project knowledge and activities. Keep
-              everything in one workspace and therefore everyone in the loop. Self-hosting
-              guarantees your freedom and privacy. Coming soon!
+              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you easily create
+              custom digital workspaces to that act as a single source of truth for you and your
+              team&apos;s knowledge and collaborative work with the free and open source TiddlyWiki
+              app so you can keep everyone aligned, efficient and consistent with one app. Available
+              app. Available as a self-hosted or cloud-based service. Coming soon!
             </p>
             <div className="mt-8 md:mt-6">
               <CtaButton className="primary font-body font-bold" size="lg">
@@ -61,7 +62,7 @@ export default () => (
       </section>
       <section id="benefits" className="pt-20 lg:pt-32">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl lg:text-5xl font-header">What do you gain with Oneplaybook?</h2>
+          <h2 className="text-3xl lg:text-5xl font-header">What do you gain?</h2>
           <div className="flex flex-col lg:flex-row lg:-mx-3 mt-12">
             <div className="flex-1 px-3">
               <Card className="mb-8" icon={<i className="gg-lock-unlock mb-8" />}>
@@ -76,17 +77,17 @@ export default () => (
               <Card className="mb-8" icon={<i className="gg-dollar" />}>
                 <p className="font-semibold text-xl">Pay less, get more</p>
                 <p className="mt-4">
-                  Oneplaybook&apos;s rich set of features replace apps like Evernote, Miro, Zoom and
-                  Notion. Get the power of five apps for the price of one app.
+                  Oneplaybook&apos;s rich set of features replace apps like Evernote, Miro, and
+                  Notion. Get the power of all these apps and more for the price of one app.
                 </p>
               </Card>
             </div>
             <div className="flex-1 px-3">
               <Card className="mb-8" icon={<i className="gg-smile-mouth-open" />}>
-                <p className="font-semibold text-xl">Bloat free</p>
+                <p className="font-semibold text-xl">Lean and flexible</p>
                 <p className="mt-4">
-                  Whether it&apos;s a personal project or a collaborative effort, pick and choose
-                  the exact template or plugin you need for your workflow and avoid feature bloat.
+                  Whether it&apos;s a personal project or a collaborative effort, pick the exact
+                  template or TiddlyWiki plugin you need for your work.
                 </p>
               </Card>
             </div>
@@ -94,7 +95,7 @@ export default () => (
               <Card className="mb-8" icon={<i className="gg-time" />}>
                 <p className="font-semibold text-xl">Just work, save time</p>
                 <p className="mt-4">
-                  Oneplaybook gives you a managed app experience so you can concentrate on getting
+                  Oneplaybook offers you a managed app experience so you can concentrate on getting
                   valuable work done and not waste time on maintenance.
                 </p>
               </Card>
@@ -104,7 +105,7 @@ export default () => (
       </section>
       <div className="mx-auto text-center">
         <h2 id="features" className="text-3xl lg:text-5xl font-header py-20 lg:pt-32">
-          Empower your projects
+          Empower yourself & your teams
         </h2>
       </div>
       <SplitSection
@@ -113,9 +114,9 @@ export default () => (
           <div className="lg:pl-32 xl:pl-48">
             <h3 className="text-3xl font-header leading-tight">All knowledge in one place</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
-              Keep all knowledge that is important to you and your team in one neat, accessible and
-              organized workspace instead of scattering it all across multiple apps and web
-              services.
+              Save all knowledge that is important to you and your team in one simple shared
+              workspace so you do not waste time searching for it in endless email threads and
+              accounts.
             </p>
           </div>
         }
@@ -124,10 +125,10 @@ export default () => (
       <SplitSection
         primarySlot={
           <div className="lg:pr-32 xl:pr-48">
-            <h3 className="text-3xl font-header leading-tight">Collaboration made fun again</h3>
+            <h3 className="text-3xl font-header leading-tight">Effortless collaboration</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
-              Be remote ready by default. Invite team members with a simple link to work on stuff
-              together in realtime or asynchronously in one neat workspace
+              Easily manage remote teams. Work on stuff together with anyone and everyone, in
+              real-time or asynchronously, in one neat workspace.
             </p>
           </div>
         }

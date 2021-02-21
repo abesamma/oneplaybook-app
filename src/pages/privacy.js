@@ -6,10 +6,10 @@ import Seo from '../components/Seo';
 export default () => (
   <>
     <Seo
-      href="https://oneplaybook.app/privacy"
-      title="Privacy Policy — OnePlaybook — Where Teams Think Together"
+      href="https://oneplaybook.app"
+      title="Smarter work | Oneplaybook"
       metaImg={MetaImg}
-      description=" Oneplaybook: a self-hosted project management tool for you and your team."
+      description="Oneplaybook: manage your knowledge and work better with TiddlyWiki."
     />
     <Layout>
       <section className="pt-12">
