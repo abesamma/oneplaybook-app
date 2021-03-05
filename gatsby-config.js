@@ -24,7 +24,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-offline`,
       options: {
-        precachePages: [`about`, `terms&conditions`]
+        precachePages: [`/about.html`, `/terms&conditions.html`]
       }
     },
     `gatsby-plugin-react-helmet`
