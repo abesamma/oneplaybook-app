@@ -22,9 +22,9 @@ module.exports = {
       }
     },
     {
-     resolve: `gatsby-plugin-offline`,
-     options: {
-       precachePages: [`/about/`, `/terms&conditions/`, `/`],
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`about`, `terms&conditions`]
       }
     },
     `gatsby-plugin-react-helmet`
