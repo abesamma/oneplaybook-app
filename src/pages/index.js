@@ -28,10 +28,13 @@ export default () => (
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Turn your confusing shared folders into a clean & accessible wiki app
+              Turn your confusing shared folders into a clean &apos; accessible wiki app
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
-              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you easily create custom wikis inside your favorite cloud storage service like Google Drive and Dropbox, so you can make your files and knowledge more accessible while still enjoying the collaborative features of the cloud service. Coming soon!
+              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you easily create
+              custom wikis inside your favorite cloud storage service like Google Drive and Dropbox,
+              so you can make your files and knowledge more accessible while still enjoying the
+              collaborative features of the cloud service. Coming soon!
             </p>
             <div className="mt-8 md:mt-6">
               <CtaButton className="primary font-body font-bold" size="lg">
