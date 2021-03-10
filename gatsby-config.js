@@ -21,12 +21,7 @@ module.exports = {
         legacy: `true`
       }
     },
-    {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        precachePages: [`/*`]
-      }
-    },
+    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`
   ]
 };
