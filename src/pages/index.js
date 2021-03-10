@@ -162,7 +162,7 @@ export default () => (
         reverseOrder
         primarySlot={
           <div className="lg:pl-32 xl:pl-48">
-            <h3 className="text-3xl font-header leading-tight">Accomodate any workflow</h3>
+            <h3 className="text-3xl font-header leading-tight">Accommodate any workflow</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
               Oneplaybook allows you to integrate any workflow that you may favor via third party
               plugins and integrations
