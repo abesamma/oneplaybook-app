@@ -28,13 +28,10 @@ export default () => (
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Knowledge management and effective collaboration made better with TiddlyWiki
+              Turn your confusing shared folders into a clean & accessible wiki app
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
-              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you easily create
-              custom digital workspaces that act as a single source of truth for you and your
-              team&apos;s knowledge and collaborative work with the free and open source TiddlyWiki
-              app, so you can stay aligned, efficient and consistent. Coming soon!
+              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you easily create custom wikis inside your favorite cloud storage service like Google Drive and Dropbox, so you can make your files and knowledge more accessible while still enjoying the collaborative features of the cloud service. Coming soon!
             </p>
             <div className="mt-8 md:mt-6">
               <CtaButton className="primary font-body font-bold" size="lg">
@@ -137,7 +134,7 @@ export default () => (
         reverseOrder
         primarySlot={
           <div className="lg:pl-32 xl:pl-48">
-            <h3 className="text-3xl font-header leading-tight">Accomodate any workflow</h3>
+            <h3 className="text-3xl font-header leading-tight">Accommodate any workflow</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
               Oneplaybook allows you to integrate any workflow that you may favor via third party
               plugins and integrations
