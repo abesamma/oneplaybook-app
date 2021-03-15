@@ -6,37 +6,12 @@ import MetaImg from '../assets/meta_image.png';
 
 export default () => (
   <>
-    <Helmet>
-    <meta charSet="utf-8" />
-      <link rel="canonical" href="https://oneplaybook.app" />
-      {/* Primary Meta Tags */}
-      <title>404 Error — OnePlaybook — Where Teams Think Together</title>
-      <meta name="title" content="404 — OnePlaybook — Where Teams Think Together" />
-      <meta
-        name="description"
-        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more."
-      />
-
-      {/* Open Graph / Facebook */}
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://oneplaybook.app" />
-      <meta property="og:title" content="404 — OnePlaybook — Where Teams Think Together" />
-      <meta
-        property="og:description"
-        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more."
-      />
-      <meta property="og:image" content={MetaImg} />
-
-      {/* Twitter */}
-      <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://oneplaybook.app" />
-      <meta property="twitter:title" content="404 — OnePlaybook — Where Teams Think Together" />
-      <meta
-        property="twitter:description"
-        content="Whether you need a second brain to help you plan a thesis, manage a project, or are looking into cultivating a digital garden with others like you, Oneplaybook can help you do all that and more."
-      />
-      <meta property="twitter:image" content={MetaImg} />
-    </Helmet>
+    <Seo
+      href="https://oneplaybook.app"
+      title="Smarter work | Oneplaybook"
+      metaImg={MetaImg}
+      description="Oneplaybook: manage your knowledge and work better with TiddlyWiki."
+    />
     <Layout>
       <section className="pt-1">
         <div className="container mx-auto text-center text-4xl font-bold primary-text-bg">
