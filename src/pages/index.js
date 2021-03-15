@@ -1,5 +1,4 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import CtaButton from '../components/CtaButton';
 import Card from '../components/Card';
 import CustomerCard from '../components/CustomerCard';
@@ -14,6 +13,7 @@ import AppsIllustration from '../svg/AppsIllustration';
 import BuildIllustration from '../svg/BuildIllustration';
 import Setup from '../svg/Setup';
 import MetaImg from '../assets/meta_image.png';
+import Seo from '../components/Seo';
 
 export default () => (
   <>
