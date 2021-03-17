@@ -28,7 +28,7 @@ export default () => (
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Turn confusing shared folders into a clean & accessible wiki app
+              Organize scattered files, notes & confusing shared folders into one clean & accessible wiki app
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you easily create
