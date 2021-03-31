@@ -28,13 +28,15 @@ export default () => (
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Organize scattered files, notes & confusing shared folders into one clean & accessible wiki app
+              Make your knowledge more accessible
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
-              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you easily create
-              custom wikis inside your favorite cloud storage service like Google Drive and Dropbox,
-              so you can make your files and knowledge more accessible while still enjoying the
-              collaborative features of the cloud service. Coming soon!
+              Don&apos;t waste time looking for that one email or headhunting that one team member
+              who knows something you desperately need for your work.{' '}
+              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you quickly and
+              easily create custom wikis inside your favorite cloud storage service like Google
+              Drive and Dropbox, so the right knowledge is more easily available when it is needed
+              most. Coming soon!
             </p>
             <div className="mt-8 md:mt-6">
               <CtaButton className="primary font-body font-bold" size="lg">
@@ -42,7 +44,7 @@ export default () => (
               </CtaButton>
             </div>
             <p className="mt-4">
-              Powered by & for{' '}
+              Powered by{' '}
               <a
                 className="underline"
                 href="https://tiddlywiki.com"
@@ -113,9 +115,9 @@ export default () => (
           <div className="lg:pl-32 xl:pl-48">
             <h3 className="text-3xl font-header leading-tight">All knowledge in one place</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
-              Save all knowledge that is important to you and your team in one simple shared
-              workspace so you do not waste time searching for it in endless email threads and
-              accounts.
+              Capture and save all knowledge that is important to you and your team in one simple
+              shared workspace so you do not waste time searching for it in endless email threads or
+              headhunting that one person who might know.
             </p>
           </div>
         }
