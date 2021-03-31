@@ -7,7 +7,13 @@ const ClickyAnalytics = () => {
       <script async src="https://static.getclicky.com/js" crossOrigin="anonymous" />
       <noscript>
         <p>
-          <img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101280810ns.gif" crossOrigin="anonymous"/>
+          <img
+            alt="Clicky"
+            width="1"
+            height="1"
+            src="//in.getclicky.com/101280810ns.gif"
+            crossOrigin="anonymous"
+          />
         </p>
       </noscript>
     </>
