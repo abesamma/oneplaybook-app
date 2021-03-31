@@ -116,7 +116,7 @@ const CookieBanner = () => {
           </div>
         </Banner>
       )}
-      {cookiePresent && <ClickyAnalytics />}
+      {cookiePresent ? <ClickyAnalytics /> : null}
     </>
   );
 };
