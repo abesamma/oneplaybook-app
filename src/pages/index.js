@@ -31,7 +31,7 @@ export default () => (
               Make your knowledge more accessible to achieve more with others
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
-              Don&apos;t waste time looking for that one email or that one team member
+              Don&apos;t waste time looking for that lost email or that one team member
               who knows something you desperately need for your work.
             </p>
             <p className="font-body text-md md:text-lg mt-4">
