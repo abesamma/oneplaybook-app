@@ -28,7 +28,7 @@ export default () => (
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Make your knowledge more accessible to achieve more
+              Make your knowledge more accessible to achieve more with others
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
               Don&apos;t waste time looking for that one email or that one team member
