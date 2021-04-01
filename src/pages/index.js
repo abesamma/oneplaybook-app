@@ -42,7 +42,7 @@ export default () => (
             </p>
             <div className="mt-8 md:mt-6">
               <CtaButton className="primary font-body font-bold" size="lg">
-                Join Waitlist
+                Join Wait list
               </CtaButton>
             </div>
             <p className="mt-4">
@@ -195,7 +195,7 @@ export default () => (
         </p>
         <div className="mt-8">
           <CtaButton className="primary font-bold" size="xl">
-            Join Waitlist
+            Join Wait list
           </CtaButton>
         </div>
       </section>
