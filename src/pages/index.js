@@ -31,7 +31,7 @@ export default () => (
               Make your knowledge more accessible
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
-              Don&apos;t waste time looking for that one email or headhunting that one team member
+              Don&apos;t waste time looking for that one email or that one team member
               who knows something you desperately need for your work.{' '}
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you quickly and
               easily create custom wikis inside your favorite cloud storage service like Google
