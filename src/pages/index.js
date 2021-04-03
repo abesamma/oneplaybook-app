@@ -19,7 +19,7 @@ export default () => (
   <>
     <Seo
       href="https://oneplaybook.app"
-      title="Smarter work | Oneplaybook"
+      title="Profit with Wikis | Oneplaybook"
       metaImg={MetaImg}
       description="Oneplaybook: manage your knowledge and work better with TiddlyWiki."
     />
@@ -36,13 +36,13 @@ export default () => (
             </p>
             <p className="font-body text-md md:text-lg mt-4">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you quickly and
-              easily create custom wikis inside your favorite cloud storage service like Google
+              easily create custom wikis on top of your favorite cloud storage service like Google
               Drive and Dropbox, so the right knowledge is more easily available when it is needed
-              most. Coming soon!
+              most. Let&apos;s do this!
             </p>
             <div className="mt-8 md:mt-6">
               <CtaButton className="primary font-body font-bold" size="lg">
-                Join Wait list
+                Create your Wiki
               </CtaButton>
             </div>
             <p className="mt-4">
@@ -195,7 +195,7 @@ export default () => (
         </p>
         <div className="mt-8">
           <CtaButton className="primary font-bold" size="xl">
-            Join Wait list
+            Create your Wiki
           </CtaButton>
         </div>
       </section>

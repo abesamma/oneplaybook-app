@@ -117,7 +117,7 @@ const Header = () => {
         <div className="hidden lg:flex mt-0">{page === '/' ? menuItems : nativeMenuItems}</div>
         <div className="hidden lg:block">
           <CtaButton className="primary-text-bg font-body font-bold text-sm">
-            Join Wait list
+            Create your Wiki
           </CtaButton>
         </div>
       </div>
