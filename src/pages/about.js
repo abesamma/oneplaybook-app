@@ -35,11 +35,11 @@ export default () => (
             We at <span className="primary-text-bg font-bold">Oneplaybook</span> are also constantly
             creating new ways to organize and collaborate on knowledge between individuals and
             teams. We welcome you to use our projects for free, and we also welcome you to the wider
-            TiddlyWiki community!
+            TiddlyWiki community.
           </p>
           <div className="mt-6 flex justify-center">
             <CtaButton className="primary font-body font-bold" size="lg">
-              Join Waitlist
+              Let&apos;s do this!
             </CtaButton>
           </div>
         </div>
