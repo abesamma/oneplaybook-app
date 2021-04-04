@@ -31,8 +31,8 @@ export default () => (
               Make your knowledge more accessible to achieve more with others
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
-              Don&apos;t waste time looking for that lost email or that one team member
-              who knows something you desperately need for your work.
+              Don&apos;t waste time combing through a maze of shared folders or finding that one team member
+              who&apos;s knowledge you desperately need.
             </p>
             <p className="font-body text-md md:text-lg mt-4">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you quickly and
