@@ -31,14 +31,14 @@ export default () => (
               Make your knowledge more accessible to achieve more with others
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
-              Don&apos;t waste time combing through a maze of shared folders or finding that one team member
-              who&apos;s knowledge you desperately need.
+              Don&apos;t waste time searching for or asking around for important knowledge at work 
+			  and beyond ever again.
             </p>
             <p className="font-body text-md md:text-lg mt-4">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you quickly and
               easily create custom wikis on top of your favorite cloud storage service like Google
-              Drive and Dropbox, so the right knowledge is more easily available when it is needed
-              most. Let&apos;s do this!
+              Drive and Dropbox, so you can build accessible knowledge bases and more with whomever 
+			  and wherever you are. Let&apos;s do this!
             </p>
             <div className="mt-8 md:mt-6">
               <CtaButton className="primary font-body font-bold" size="lg">
