@@ -38,7 +38,7 @@ export default () => (
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you quickly and
               easily create custom wikis on top of your favorite cloud storage service like Google
               Drive and Dropbox, so you can build accessible knowledge bases and more with whomever 
-			  and wherever you are. Let&apos;s do this!
+			  and wherever you want. Let&apos;s do this!
             </p>
             <div className="mt-8 md:mt-6">
               <CtaButton className="primary font-body font-bold" size="lg">
