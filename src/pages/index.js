@@ -31,8 +31,7 @@ export default () => (
               Make your knowledge more accessible so you can achieve more with others
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
-              Don&apos;t waste time searching for or asking around for important knowledge at work 
-			  and beyond ever again.
+              It&apos;s time to stop using your email inbox and your infinite number of chat channels as your knowledge base!
             </p>
             <p className="font-body text-md md:text-lg mt-4">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you quickly and
