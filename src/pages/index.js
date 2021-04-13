@@ -35,7 +35,7 @@ export default () => (
             </p>
             <p className="font-body text-md md:text-lg mt-4">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you turn
-              emails, chats and shared files into custom wikis inside any cloud service like Google
+              emails, chats, and files into custom wikis inside any cloud service like Google
               Drive and Dropbox, so you can build accessible knowledge bases and more for yourself, 
 	      your team and your customers. Let&apos;s do this!
             </p>
