@@ -28,10 +28,10 @@ export default () => (
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Make your knowledge more accessible so you can achieve more with others
+              Quickly turn hidden knowledge into accessible wikis to achieve more with others
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
-              It&apos;s time to stop using your email inbox and your infinite number of chat channels as your knowledge base!
+              It&apos;s time to stop relying on cluttered email inboxes and infinite chat channels as your source of truth!
             </p>
             <p className="font-body text-md md:text-lg mt-4">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you quickly and
