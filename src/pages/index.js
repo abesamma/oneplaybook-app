@@ -28,7 +28,7 @@ export default () => (
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Quickly turn hidden knowledge into accessible wikis
+              Quickly turn hidden knowledge into accessible wikis that supercharge your work
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
               It&apos;s time to stop using cluttered email inboxes and infinite chat channels as knowledge bases!
