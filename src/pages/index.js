@@ -39,7 +39,7 @@ export default () => (
               Drive and Dropbox, so you can build accessible knowledge bases and more for yourself, 
 	      your team and your customers. Let&apos;s do this!
             </p>
-            <div className="mt-8 md:mt-6">
+            <div className="mt-6 md:mt-4">
               <CtaButton className="primary font-body font-bold" size="lg">
                 Create your Wiki
               </CtaButton>
