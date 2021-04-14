@@ -30,7 +30,7 @@ export default () => (
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
               Turn hidden knowledge into accessible wikis that supercharge your work
             </h1>
-            <p className="font-body text-md md:text-lg mt-6">
+            <p className="font-body text-md md:text-lg mt-4">
               It&apos;s time to stop using cluttered email inboxes and infinite chat channels as knowledge bases!
             </p>
             <p className="font-body text-md md:text-lg mt-4">
