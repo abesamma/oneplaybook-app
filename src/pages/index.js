@@ -28,13 +28,13 @@ export default () => (
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Quickly turn hidden knowledge into accessible wikis that supercharge your work
+              Turn hidden knowledge into accessible wikis that supercharge your work
             </h1>
             <p className="font-body text-md md:text-lg mt-6">
               It&apos;s time to stop using cluttered email inboxes and infinite chat channels as knowledge bases!
             </p>
             <p className="font-body text-md md:text-lg mt-4">
-              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you turn
+              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you quickly turn
               emails, chats, and files into custom wikis inside any cloud service like Google
               Drive and Dropbox, so you can build accessible knowledge bases and more for yourself, 
 	      your team and your customers. Let&apos;s do this!
