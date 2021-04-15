@@ -8,8 +8,7 @@ const Footer = () => {
           <div className="flex-1 px-3">
             <h2 className="text-lg font-semibold">About</h2>
             <p className="mt-5">
-              Oneplaybook app is a knowledge management & collaboration tool that helps you & your
-              team think & get awesome stuff done together.
+              We are helping to make knowledge more accessible for people, teams & organizations via one awesome wiki at a time. 🔥
             </p>
             <p className="mt-2">
               Made with{' '}
