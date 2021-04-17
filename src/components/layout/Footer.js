@@ -36,13 +36,16 @@ const Footer = () => {
             </ul>
           </div>
           <div className="flex-1 px-3">
-            <h2 className="text-lg font-semibold">Social Media</h2>
+            <h2 className="text-lg font-semibold">Get in touch!</h2>
             <ul className="mt-4 leading-loose">
               <li>
                 <a href="https://twitter.com/One_Playbook">Twitter</a>
               </li>
               <li>
                 <a href="https://github.com/abesamma/oneplaybook">GitHub</a>
+              </li>
+			  <li>
+                <a href="mailto:oneplaybooklab@gmail.com">Email</a>
               </li>
             </ul>
           </div>
