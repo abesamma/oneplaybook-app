@@ -28,16 +28,16 @@ export default () => (
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Create powerful custom wikis that supercharge your work
+              Quickly create wikis that configure your work for success. Literally!
             </h1>
             <p className="font-body text-md md:text-lg mt-4">
-              Time to stop using cluttered email inboxes and infinite chat channels as your main workspace!
+              Time to stop going through infinite work apps and running on guesswork.
             </p>
             <p className="font-body text-md md:text-lg mt-4">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you quickly 
-			  generate wikis inside any cloud service like Google Drive and Dropbox,
-			  so you can organize all your work & knowledge into one clean workspace for teams
-			  and individuals.
+			  generate programmable wikis inside any cloud service like Google Drive and Dropbox,
+			  so you can organize all your knowledge & automate work inside one clean workspace
+			  for teams and individuals.
             </p>
             <div className="mt-6 md:mt-4">
               <CtaButton className="primary font-body font-bold" size="lg">
