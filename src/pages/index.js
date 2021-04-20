@@ -31,13 +31,13 @@ export default () => (
               Quickly create wikis that configure your work for success. Literally!
             </h1>
             <p className="font-body text-md md:text-lg mt-4">
-              Time to stop going through infinite work apps and running on guesswork.
+              Time to stop scattering your knowledge across hundreds of apps, chats and emails.
             </p>
             <p className="font-body text-md md:text-lg mt-4">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you quickly 
 			  generate customizable wikis inside any cloud service like Google Drive and Dropbox,
 			  so you can organize all your knowledge and workflows inside one clean workspace
-			  for teams and individuals.
+			  while keeping the data firmly in your hands. For teams and individuals.
             </p>
             <div className="mt-6 md:mt-4">
               <CtaButton className="primary font-body font-bold" size="lg">
