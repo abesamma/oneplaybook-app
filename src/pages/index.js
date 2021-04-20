@@ -36,7 +36,7 @@ export default () => (
             <p className="font-body text-md md:text-lg mt-4">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you quickly 
 			  generate programmable wikis inside any cloud service like Google Drive and Dropbox,
-			  so you can organize all your knowledge & automate work inside one clean workspace
+			  so you can organize all your knowledge & automate tedious work inside one clean workspace
 			  for teams and individuals.
             </p>
             <div className="mt-6 md:mt-4">
