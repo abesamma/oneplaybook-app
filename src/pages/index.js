@@ -31,7 +31,7 @@ export default () => (
               Quickly create wikis that configure your work for success. Literally!
             </h1>
             <p className="font-body text-md md:text-lg mt-4">
-              Time to stop scattering your knowledge across hundreds of apps, chats and emails.
+              Itapos;s easy to lose track of your knowledge and work amid hundreds of apps, chats and emails.
             </p>
             <p className="font-body text-md md:text-lg mt-4">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you generate customizable
