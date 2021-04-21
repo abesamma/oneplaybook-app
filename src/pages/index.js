@@ -34,10 +34,10 @@ export default () => (
               Time to stop scattering your knowledge across hundreds of apps, chats and emails.
             </p>
             <p className="font-body text-md md:text-lg mt-4">
-              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you quickly 
-			  generate customizable wikis inside any cloud service like Google Drive and Dropbox,
-			  so you can organize all your knowledge and workflows inside one clean workspace
-			  while keeping the data firmly in your hands. For teams and individuals.
+              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you generate customizable
+			  wikis inside any cloud service like Google Drive and Dropbox, so you can organize
+			  all your knowledge and inform your workflows inside one clean workspace
+			  while the data stays firmly in your hands. For teams and individuals.
             </p>
             <div className="mt-6 md:mt-4">
               <CtaButton className="primary font-body font-bold" size="lg">
