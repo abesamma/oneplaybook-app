@@ -31,7 +31,7 @@ export default () => (
               Quickly create wikis that configure your work for success. Literally!
             </h1>
             <p className="font-body text-md md:text-lg mt-4">
-              Itapos;s easy to lose track of knowledge, work and direction amid so many apps, chats, emails
+              It&apos;s easy to lose track of knowledge, work and direction amid so many apps, chats, emails
               and teammates.
             </p>
             <p className="font-body text-md md:text-lg mt-4">
