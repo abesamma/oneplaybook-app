@@ -31,13 +31,13 @@ export default () => (
               Capture, recall, think and achieve stuff together with one playbook.
             </h1>
             <p className="font-body text-md md:text-lg mt-4">
-              It&apos;s easy to lose track of knowledge, work and direction amid so many apps, chats, emails
+              It&apos;s easy to lose track of knowledge, work and direction amid so many sites, apps, chats, emails
               and teammates.
             </p>
             <p className="font-body text-md md:text-lg mt-4">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you generate customizable
-			  wikis inside any cloud service like Google Drive and Dropbox, so you can organize
-			  all your knowledge and inform your workflows inside one clean workspace.
+			  wikis inside any cloud service like Google Drive and Dropbox, so you can capture and organize
+			  all your knowledge into one neat workspace to inform your workflows.
 			  All data stays firmly in your hands. For teams and individuals.
             </p>
             <div className="mt-6 md:mt-4">
