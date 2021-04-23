@@ -8,7 +8,11 @@ const Footer = () => {
           <div className="flex-1 px-3">
             <h2 className="text-lg font-semibold">About</h2>
             <p className="mt-5">
-              We are helping individuals & teams configure their work for success with a customizable internal wiki platform. 🔥
+              We are helping individuals & teams achieve more with a customizable second brain
+              platform.{' '}
+              <span role="img" aria-label="lit">
+                🔥
+              </span>
             </p>
             <p className="mt-2">
               Made with{' '}
@@ -44,7 +48,7 @@ const Footer = () => {
               <li>
                 <a href="https://github.com/abesamma/oneplaybook">GitHub</a>
               </li>
-			  <li>
+              <li>
                 <a href="mailto:oneplaybooklab@gmail.com">Email</a>
               </li>
             </ul>
