@@ -28,7 +28,7 @@ export default () => (
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Quickly create wikis that configure your work for success. Literally!
+              Capture, recall, think and achieve stuff together with one playbook.
             </h1>
             <p className="font-body text-md md:text-lg mt-4">
               It&apos;s easy to lose track of knowledge, work and direction amid so many apps, chats, emails
