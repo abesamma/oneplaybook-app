@@ -79,9 +79,6 @@ button.primary:focus {
 button.primary:active {
   box-shadow: inset 0 0 5px black;
 }
-div#top {
-  max-height: 22.5px;
-}
 i {
   z-index: -1;
   color: #DD2476;
