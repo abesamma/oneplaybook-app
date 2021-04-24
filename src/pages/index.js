@@ -28,17 +28,17 @@ export default () => (
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Capture, recall, think and achieve stuff together with one playbook.
+              Capture, recall, learn and achieve more stuff together with a shared second brain
             </h1>
             <p className="font-body text-md md:text-lg mt-4">
-              It&apos;s easy to lose track of knowledge, work and direction amid so many sites, apps, chats, emails
-              and teammates.
+              It&apos;s easy to lose track of knowledge and direction amid so many sites, apps,
+              chats, emails and opinions.
             </p>
             <p className="font-body text-md md:text-lg mt-4">
-              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you generate customizable
-			  wikis inside any cloud service like Google Drive and Dropbox, so you can capture and organize
-			  all your knowledge into one neat workspace to inform your workflows.
-			  All data stays firmly in your hands. For teams and individuals.
+              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you generate
+              customizable wikis inside any cloud service like Google Drive and Dropbox; second
+              brains that help capture and organize all your knowledge into one neat place to inform
+              your work. All data stays with you. For teams and individuals.
             </p>
             <div className="mt-6 md:mt-4">
               <CtaButton className="primary font-body font-bold" size="lg">
