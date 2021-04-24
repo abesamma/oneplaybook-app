@@ -107,8 +107,9 @@ const Header = () => {
   );
   return (
     <header className="sticky top-0 bg-white shadow">
+      {/* Note: maxHeight in style attr fixes tendency of webkit browsers to extend the container to fit entire screen */}
       <div
-        style={{ maxHeight: 77 }} {/*Fixes tendency of webkit browsers extending the container to fit entire screen*/}
+        style={{ maxHeight: 77 }}
         className="container flex flex-row justify-between items-center mx-auto py-4 px-8"
       >
         <div className="flex items-center text-2xl">
