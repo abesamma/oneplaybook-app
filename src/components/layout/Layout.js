@@ -6,11 +6,9 @@ import CookieBanner from '../CookieBanner';
 const Layout = ({ children }) => {
   return (
     <>
-      <div id="top">
-        <Header />
-        <main className="text-gray-900">{children}</main>
-        <Footer />
-      </div>
+      <Header />
+      <main className="text-gray-900">{children}</main>
+      <Footer />
       <CookieBanner />
     </>
   );

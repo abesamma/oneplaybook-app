@@ -15,13 +15,17 @@ const Header = () => {
     if (mq.matches) return;
     setMenu(false);
   };
+  const scrollToTop = () => {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  };
   const logoAnchorLink = (
-    <AnchorLink href="#top">
+    <AnchorLink onClick={scrollToTop}>
       <LogoIcon />
     </AnchorLink>
   );
-  const nativeLogoAnchorLink = (
-    <a href="/#top">
+  const returnToIndexPageLogoAnchorLink = (
+    <a href="/">
       <LogoIcon />
     </a>
   );
@@ -105,7 +109,9 @@ const Header = () => {
     <header className="sticky top-0 bg-white shadow">
       <div className="container flex flex-row justify-between items-center mx-auto py-4 px-8">
         <div className="flex items-center text-2xl">
-          <div className="w-48 m-auto">{page === '/' ? logoAnchorLink : nativeLogoAnchorLink}</div>
+          <div className="w-48 m-auto">
+            {page === '/' ? logoAnchorLink : returnToIndexPageLogoAnchorLink}
+          </div>
         </div>
         <button
           type="button"
