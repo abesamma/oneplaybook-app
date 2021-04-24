@@ -15,17 +15,13 @@ const Header = () => {
     if (mq.matches) return;
     setMenu(false);
   };
-  const scrollToTop = () => {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  };
   const logoAnchorLink = (
-    <AnchorLink onClick={scrollToTop}>
+    <AnchorLink href="#top">
       <LogoIcon />
     </AnchorLink>
   );
-  const returnToIndexPageLogoAnchorLink = (
-    <a href="/">
+  const nativeLogoAnchorLink = (
+    <a href="/#top">
       <LogoIcon />
     </a>
   );
@@ -107,15 +103,14 @@ const Header = () => {
   );
   return (
     <header className="sticky top-0 bg-white shadow">
-      {/* Note: maxHeight in style attr fixes tendency of webkit browsers to extend the container to fit entire screen */}
+      {/** Add style to container div below for macHeight to prevent
+       *webkit in iOS from expanding header to 100vh */}
       <div
         style={{ maxHeight: 77 }}
         className="container flex flex-row justify-between items-center mx-auto py-4 px-8"
       >
         <div className="flex items-center text-2xl">
-          <div className="w-48 m-auto">
-            {page === '/' ? logoAnchorLink : returnToIndexPageLogoAnchorLink}
-          </div>
+          <div className="w-48 m-auto">{page === '/' ? logoAnchorLink : nativeLogoAnchorLink}</div>
         </div>
         <button
           type="button"

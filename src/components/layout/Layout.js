@@ -6,9 +6,13 @@ import CookieBanner from '../CookieBanner';
 const Layout = ({ children }) => {
   return (
     <>
-      <Header />
-      <main className="text-gray-900">{children}</main>
-      <Footer />
+      {/** Just incase iOS webkit misbehaves and expands it all the way down the screen.
+       * Remove if proven unnecessary */}
+      <div style={{ maxHeight: 22.5 }} id="top">
+        <Header />
+        <main className="text-gray-900">{children}</main>
+        <Footer />
+      </div>
       <CookieBanner />
     </>
   );
