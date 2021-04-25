@@ -8,10 +8,9 @@ const Footer = () => {
           <div className="flex-1 px-3">
             <h2 className="text-lg font-semibold">About</h2>
             <p className="mt-5">
-              We are helping individuals & teams achieve more with a customizable second brain
-              platform.{' '}
-              <span role="img" aria-label="lit">
-                🔥
+              We are helping individuals & teams achieve more with customizable second brains.{' '}
+              <span role="img" aria-label="brain">
+                🧠
               </span>
             </p>
             <p className="mt-2">
