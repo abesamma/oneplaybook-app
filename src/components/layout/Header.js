@@ -103,7 +103,12 @@ const Header = () => {
   );
   return (
     <header className="sticky top-0 bg-white shadow">
-      <div className="container flex flex-row justify-between items-center mx-auto py-4 px-8">
+      {/** Add style to container div below for macHeight to prevent
+       *webkit in iOS from expanding header to 100vh */}
+      <div
+        style={{ maxHeight: 77 }}
+        className="container flex flex-row justify-between items-center mx-auto py-4 px-8"
+      >
         <div className="flex items-center text-2xl">
           <div className="w-48 m-auto">{page === '/' ? logoAnchorLink : nativeLogoAnchorLink}</div>
         </div>
