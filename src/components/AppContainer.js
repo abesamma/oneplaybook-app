@@ -31,7 +31,9 @@ const AppContainer = ({ className, controls }) => {
   const addErrorListeners = xhr => {
     xhr.addEventListener('error', () => {
       alert(
-        'Sorry about that. Something went wrong. Try again later. If the problem persists, please contact us: oneplaybooklab@gmail.com.'
+        `Sorry about that. Something went wrong. Check your network connection,
+        or try temporarily disabling any browser extensions that could interfere with form submission,
+        then try again. If the problem persists, please contact us: oneplaybooklab@gmail.com.`
       );
     });
   };
