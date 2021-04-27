@@ -1,12 +1,11 @@
 import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import { window } from 'browser-monads';
 import LogoIcon from '../../svg/LogoIcon';
 import CtaButton from '../CtaButton';
 
 const Header = () => {
   const [open, setMenu] = React.useState(false);
-  const page = window.location.pathname;
   const handleMenuClick = () => {
     setMenu(!open);
   };
@@ -16,91 +15,57 @@ const Header = () => {
     setMenu(false);
   };
   const logoAnchorLink = (
-    <AnchorLink href="#top">
+    <AnchorLink to="/#top">
       <LogoIcon />
     </AnchorLink>
-  );
-  const nativeLogoAnchorLink = (
-    <a href="/#top">
-      <LogoIcon />
-    </a>
   );
   const menuItems = (
     <>
       <AnchorLink
-        onClick={handleMenuClose}
+        onAnchorLinkClick={handleMenuClose}
         className="menu-item font-body px-4 my-4 lg:my-0"
-        href="#benefits"
+        to="/#benefits"
       >
         Benefits
       </AnchorLink>
       <AnchorLink
-        onClick={handleMenuClose}
+        onAnchorLinkClick={handleMenuClose}
         className="menu-item font-body px-4 my-4 lg:my-0"
-        href="#features"
+        to="/#features"
       >
         Features
       </AnchorLink>
       <AnchorLink
-        onClick={handleMenuClose}
+        onAnchorLinkClick={handleMenuClose}
         className="menu-item font-body px-4 my-4 lg:my-0"
-        href="#cloud"
+        to="/#cloud"
       >
         Hosting
       </AnchorLink>
       <AnchorLink
-        onClick={handleMenuClose}
+        onAnchorLinkClick={handleMenuClose}
         className="menu-item font-body px-4 my-4 lg:my-0"
-        href="#setup"
+        to="/#setup"
       >
         Setup
       </AnchorLink>
       <AnchorLink
-        onClick={handleMenuClose}
+        onAnchorLinkClick={handleMenuClose}
         className="menu-item font-body px-4 my-4 lg:my-0"
-        href="#opensource"
+        to="/#opensource"
       >
         Open source
       </AnchorLink>
-      <a onClick={handleMenuClose} className="menu-item font-body px-4 my-4 lg:my-0" href="/about">
+      <AnchorLink
+        onAnchorLinkClick={handleMenuClose}
+        className="menu-item font-body px-4 my-4 lg:my-0"
+        to="/about"
+      >
         About
-      </a>
+      </AnchorLink>
     </>
   );
-  const nativeMenuItems = (
-    <>
-      <a
-        onClick={handleMenuClose}
-        className="menu-item font-body px-4 my-4 lg:my-0"
-        href="/#benefits"
-      >
-        Benefits
-      </a>
-      <a
-        onClick={handleMenuClose}
-        className="menu-item font-body px-4 my-4 lg:my-0"
-        href="/#features"
-      >
-        Features
-      </a>
-      <a onClick={handleMenuClose} className="menu-item font-body px-4 my-4 lg:my-0" href="/#cloud">
-        Hosting
-      </a>
-      <a onClick={handleMenuClose} className="menu-item font-body px-4 my-4 lg:my-0" href="/#setup">
-        Setup
-      </a>
-      <a
-        onClick={handleMenuClose}
-        className="menu-item font-body px-4 my-4 lg:my-0"
-        href="/#opensource"
-      >
-        Open source
-      </a>
-      <a onClick={handleMenuClose} className="menu-item font-body px-4 my-4 lg:my-0" href="/about">
-        About
-      </a>
-    </>
-  );
+
   return (
     <header className="sticky top-0 bg-white shadow">
       {/** Add style to container div below for macHeight to prevent
@@ -110,7 +75,7 @@ const Header = () => {
         className="container flex flex-row justify-between items-center mx-auto py-4 px-8"
       >
         <div className="flex items-center text-2xl">
-          <div className="w-48 m-auto">{page === '/' ? logoAnchorLink : nativeLogoAnchorLink}</div>
+          <div className="w-48 m-auto">{logoAnchorLink}</div>
         </div>
         <button
           type="button"
@@ -119,7 +84,7 @@ const Header = () => {
         >
           {open ? <i className="gg-close" /> : <i className="gg-menu" />}
         </button>
-        <div className="hidden lg:flex mt-0">{page === '/' ? menuItems : nativeMenuItems}</div>
+        <div className="hidden lg:flex mt-0">{menuItems}</div>
         <div className="hidden lg:block">
           <CtaButton className="primary-text-bg font-body font-bold text-sm">
             Create your Wiki
@@ -127,9 +92,7 @@ const Header = () => {
         </div>
       </div>
       <div className={open ? 'absolute w-screen bg-white h-screen lg:h-0' : 'hidden'}>
-        <div className={open ? 'flex flex-col items-center lg:hidden' : 'hidden'}>
-          {page === '/' ? menuItems : nativeMenuItems}
-        </div>
+        <div className={open ? 'flex flex-col items-center lg:hidden' : 'hidden'}>{menuItems}</div>
       </div>
     </header>
   );

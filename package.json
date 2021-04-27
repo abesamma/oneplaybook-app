@@ -1,7 +1,7 @@
 {
   "name": "oneplaybook",
   "author": "Abraham Samma",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "license": " MPL-2.0",
   "scripts": {
     "develop": "gatsby develop",
@@ -13,6 +13,7 @@
     "browser-monads": "^1.0.0",
     "clsx": "^1.1.1",
     "gatsby": "^2.24.15",
+    "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-manifest": "^2.4.32",
     "gatsby-plugin-material-ui": "^2.1.9",
     "gatsby-plugin-offline": "^3.2.29",
@@ -20,7 +21,6 @@
     "gatsby-theme-codebushi": "1.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0"
   },

@@ -8,6 +8,12 @@ module.exports = {
     },
     `gatsby-plugin-material-ui`,
     {
+      resolve: `gatsby-plugin-anchor-links`,
+      options: {
+        duration: 800
+      }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `OnePlaybook`,
