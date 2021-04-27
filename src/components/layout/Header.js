@@ -38,7 +38,7 @@ const Header = () => {
       <AnchorLink
         onAnchorLinkClick={handleMenuClose}
         className="menu-item font-body px-4 my-4 lg:my-0"
-        TO="/#cloud"
+        to="/#cloud"
       >
         Hosting
       </AnchorLink>
