@@ -10,7 +10,7 @@ const Introduction = () => {
       </Typography>
       <AbrahamAvatarCard>
         Nice to meet you. I&apos;m Abraham Samma, the developer of Oneplaybook. Feel free to reach
-        out me if you have any questions. Great to have you!
+        out to me if you have any questions. Great to have you!
       </AbrahamAvatarCard>
       <Typography variant="inherit">
         Welcome to Oneplaybook. Thanks for taking the time to poke around here! Oneplaybook is still
@@ -18,8 +18,7 @@ const Introduction = () => {
         <br />
         <br />
         Currently, the waiting list is not very long, so you probably won&apos;t have to wait very
-        long to try it out. To make it worth your time, there are a number of perks in the works
-        just for testers! Click next below to find out.
+        long to try it out. We cannot wait to have you try out our take on the TiddlyWiki workflow!
       </Typography>
     </>
   );
