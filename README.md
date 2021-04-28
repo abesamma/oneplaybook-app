@@ -1,6 +1,6 @@
 # About Oneplaybook 📔
 
-**Oneplaybook** is a web app that allows you to quickly get started building an integrated internal wiki system with [TiddlyWiki](https://tiddlywiki.com), a popular open source non-linear note taking app, for personal use as well as for teams. You can think of it as your second brain service! Unlink other wiki software services, **Oneplaybook** offers you ways to keep data on servers/cloud services you trust instead of forcing you into our own backend solution. In fact, we don't have any servers to begin with for you to worry about!
+**Oneplaybook** is a web app that allows you to quickly get started building an integrated internal wiki system with [TiddlyWiki](https://tiddlywiki.com), a popular open source non-linear note taking app, for personal use as well as for teams. You can think of it as your second brain service! Unlink most commercial wiki software services and othersimilar SaaS solutions, **Oneplaybook** offers you ways to keep data on servers/cloud services you trust instead of forcing you into our own backend solution. In fact, we don't have any servers to begin with for you to worry about!
 
 Instead, this web app acts as an offline-ready go-between for you and your self hosted data, giving you a managed app service experience while keeping your data firmly in your hands.
 
