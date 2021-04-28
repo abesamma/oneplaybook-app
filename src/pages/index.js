@@ -35,9 +35,9 @@ export default () => (
               chats, emails and opinions.
             </p>
             <p className="font-body text-md md:text-lg mt-4">
-              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you generate
-              customizable wikis inside any cloud service like Google Drive and Dropbox; second
-              brains designed to capture and organize all knowledge into one neat place to inform
+              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you build
+              integrated internal wikis locally, or in any cloud service like Google Drive and Dropbox,
+              so you can capture, organize and share all knowledge in one neat space and inform
               your work and others. All data stays with you. For teams and individuals.
             </p>
             <div className="mt-6 md:mt-4">
