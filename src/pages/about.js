@@ -20,10 +20,11 @@ export default () => (
         <div className="container mx-auto px-8 mt-4 text-center lg:text-justify">
           <p className="my-2">
             <span className="primary-text-bg font-bold">Oneplaybook</span> is a web app that allows
-            you to quickly get started with TiddlyWiki, the open source non-linear note taking app,
-            for personal as well as for teams. Unlink other software services,{' '}
+            you to quickly get started building an integrated internal wiki system with TiddlyWiki, a popular open source non-linear note taking app,
+            for personal use as well as for teams. You can think of it as your second brain service!
+            Unlink other wiki software services,{' '}
             <span className="primary-text-bg font-bold">Oneplaybook</span> offers you ways to keep
-            data on servers/cloud services you trust instead of forcing you into our own solution.
+            data on servers/cloud services you trust instead of forcing you into our own backend solution.
             In fact, we don&apos;t have any servers to begin with for you to worry about!
           </p>
           <p className="my-2">
