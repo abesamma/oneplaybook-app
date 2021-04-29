@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="flex-1 px-3">
             <h2 className="text-lg font-semibold">About</h2>
             <p className="mt-5">
-              We are helping individuals & teams achieve more with customizable second brains.{' '}
+              We are helping individuals & teams achieve more together with connected second brains.{' '}
               <span role="img" aria-label="brain">
                 🧠
               </span>
