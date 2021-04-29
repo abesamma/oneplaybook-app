@@ -15,22 +15,27 @@ export default () => (
     <Layout>
       <section className="pt-12">
         <div className="container mx-auto text-center">
-          <h1 className="text-3xl lg:text-5xl font-header">About Oneplaybook</h1>
+          <h1 className="text-3xl lg:text-5xl font-header">About Oneplaybook{' '}
+            <span role="img" aria-label="playbook emoji">
+              📔
+            </span>
+          </h1>
         </div>
         <div className="container mx-auto px-8 mt-4 text-center lg:text-justify">
           <p className="my-2">
             <span className="primary-text-bg font-bold">Oneplaybook</span> is a web app that allows
             you to quickly get started building an integrated internal wiki system with TiddlyWiki, a popular open source non-linear note taking app,
             for personal use as well as for teams. You can think of it as your second brain service!
-            Unlike other commercial wiki software services,{' '}
+            Unlike most commercial wiki software services and other similar SaaS solutions,{' '}
             <span className="primary-text-bg font-bold">Oneplaybook</span> offers you ways to keep
             data on servers/cloud services you trust instead of forcing you into our own backend solution.
             In fact, we don&apos;t have any servers to begin with for you to worry about!
           </p>
           <p className="my-2">
-            Instead, this web app acts as an offline-ready go-between for you and your self hosted
-            data, giving you a managed app service experience while keeping your data firmly in your
-            hands.
+            Instead, this web app acts as an offline-ready, intermediary app between you and your self hosted data,
+            giving you a managed app service experience while keeping your data firmly in your hands.
+            It also allows you to fork a copy of the software and modify/remix and release your own 
+            copy the app under MPL-2.0 licensing!
           </p>
           <p className="my-2">
             We at <span className="primary-text-bg font-bold">Oneplaybook</span> are also constantly
