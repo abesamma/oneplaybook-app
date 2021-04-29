@@ -36,9 +36,9 @@ export default () => (
             </p>
             <p className="font-body text-md md:text-lg mt-4">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you build
-              integrated internal wikis locally, or in any cloud service like Google Drive and Dropbox,
-              so you can capture, organize and share all knowledge in one neat space and inform
-              your work and others. All data stays with you. For teams and individuals.
+              federated internal wiki collections called &apos;playbooks&apos; to use anywhere,
+              locally or via any preferred cloud service, so you can capture, organize and share all
+              your knowledge with others better via one unified space. All data stays with you.
             </p>
             <div className="mt-6 md:mt-4">
               <CtaButton className="primary font-body font-bold" size="lg">
