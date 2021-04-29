@@ -24,7 +24,7 @@ export default () => (
       description="Oneplaybook: manage your knowledge and work better with TiddlyWiki."
     />
     <Layout>
-      <section className="pt-12">
+      <section className="pt-8">
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">

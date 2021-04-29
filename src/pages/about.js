@@ -13,7 +13,7 @@ export default () => (
       description="Oneplaybook: manage your knowledge and work better with TiddlyWiki."
     />
     <Layout>
-      <section className="pt-12">
+      <section className="pt-8">
         <div className="container mx-auto text-center">
           <h1 className="text-3xl lg:text-5xl font-header">
             About Oneplaybook{' '}
