@@ -28,7 +28,7 @@ export default () => (
             you to quickly get started building federated internal wikis (aka connected &apos;second
             brains&apos;) that allow you to more easily co-create and share useful knowledge and
             related tools with others around the world with TiddlyWiki, a popular open source
-            non-linear note taking app that is used by many knowledge workers today.Unlike most
+            non-linear note taking app that is used by many knowledge workers today. Unlike most
             commercial wiki software services and other similar software-as-a-service solutions,{' '}
             <span className="primary-text-bg font-bold">Oneplaybook</span> offers you ways to keep
             data on servers/cloud services you trust instead of forcing you into our own backend
