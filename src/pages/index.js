@@ -37,8 +37,8 @@ export default () => (
             <p className="font-body text-md md:text-lg mt-4">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you build
               federated internal wiki collections called &apos;playbooks&apos; to use anywhere,
-              locally or on any preferred cloud service, so you can capture, organize and share all
-              your knowledge with others better via one unified space. All data stays with you.
+              locally or on any preferred cloud service, so you can work on the knowledge better
+              with others in one unified space. All data stays with you.
             </p>
             <div className="mt-6 md:mt-4">
               <CtaButton className="primary font-body font-bold" size="lg">
