@@ -36,9 +36,9 @@ export default () => (
             </p>
             <p className="font-body text-md md:text-lg mt-4">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you build
-              internal wiki collections called &apos;playbooks&apos that connect
+              internal wiki collections called &apos;playbooks&apos; that connect
               your knowledge with others in unified, federated spaces for shared knowledge,
-              docs, and notes. Use offline or on any preferred cloud service.
+              docs, and notes. Use offline or with any cloud service of your choice.
             </p>
             <div className="mt-6 md:mt-4">
               <CtaButton className="primary font-body font-bold" size="lg">
