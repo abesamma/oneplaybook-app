@@ -32,7 +32,7 @@ export default () => (
             </h1>
             <p className="font-body text-md md:text-lg mt-4">
               It&apos;s easy to lose track of knowledge and direction amid so many sites, apps,
-              chats, emails and opinions.
+              chats, emails and collaborators.
             </p>
             <p className="font-body text-md md:text-lg mt-4">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you build
