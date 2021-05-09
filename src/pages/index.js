@@ -38,11 +38,12 @@ export default () => (
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you build
               internal wiki collections called &apos;playbooks&apos; that connect
               your knowledge with others in unified, federated spaces for shared knowledge,
-              docs, and notes. Use offline or with any cloud service of your choice.
+              docs, and notes. Use offline or with any cloud service of your choice. Coming
+              very soon!
             </p>
             <div className="mt-6 md:mt-4">
               <CtaButton className="primary font-body font-bold" size="lg">
-                Create your Wiki
+                Join wait list
               </CtaButton>
             </div>
             <p className="mt-4">
@@ -195,7 +196,7 @@ export default () => (
         </p>
         <div className="mt-8">
           <CtaButton className="primary font-bold" size="xl">
-            Create your Wiki
+            Join wait list
           </CtaButton>
         </div>
       </section>
