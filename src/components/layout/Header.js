@@ -87,7 +87,7 @@ const Header = () => {
         <div className="hidden lg:flex mt-0">{menuItems}</div>
         <div className="hidden lg:block">
           <CtaButton className="primary-text-bg font-body font-bold text-sm">
-            Create your Wiki
+            Join wait list
           </CtaButton>
         </div>
       </div>
