@@ -37,7 +37,7 @@ export default () => (
             <p className="font-body text-md md:text-lg mt-4">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you build
               internal wiki collections called &apos;playbooks&apos; that connect
-              your knowledge with others in unified, federated spaces for shared knowledge,
+              your knowledge with others in unified, federated spaces for sharing knowledge,
               docs, and notes. Use offline or with any cloud service of your choice. Coming
               very soon!
             </p>
