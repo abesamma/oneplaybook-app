@@ -28,7 +28,7 @@ export default () => (
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Capture, organize and share knowledge better to achieve more together
+              Manage knowledge better together with one tool
             </h1>
             <p className="font-body text-md md:text-lg mt-4">
               It&apos;s easy to lose track of knowledge and direction amid so many sites, apps,
@@ -36,9 +36,8 @@ export default () => (
             </p>
             <p className="font-body text-md md:text-lg mt-4">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you build
-              internal wiki collections called &apos;playbooks&apos; that connect
-              your knowledge with others in unified, federated spaces for sharing knowledge,
-              docs, and notes. Use offline or with any cloud service of your choice. Coming
+              internal wiki spaces for sharing knowledge, docs, notes and more. Use offline or
+              with any cloud service of your choice. Perfect for individuals and teams Coming
               very soon!
             </p>
             <div className="mt-6 md:mt-4">
