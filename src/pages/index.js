@@ -37,8 +37,8 @@ export default () => (
             <p className="font-body text-md md:text-lg mt-4">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you build
               internal wiki spaces for sharing knowledge, docs, notes and more. Use offline or
-              with any cloud service of your choice. Perfect for individuals and teams Coming
-              very soon!
+              with any cloud service of your choice. Perfect for individuals and teams who want 
+              to have a single clean and organized source of truth to refer to. Coming very soon!
             </p>
             <div className="mt-6 md:mt-4">
               <CtaButton className="primary font-body font-bold" size="lg">
