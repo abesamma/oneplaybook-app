@@ -28,7 +28,7 @@ export default () => (
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Manage knowledge better together with one tool
+              Capture, organize and share knowledge better together with one tool
             </h1>
             <p className="font-body text-md md:text-lg mt-4">
               It&apos;s easy to lose track of knowledge and direction amid so many sites, apps,
