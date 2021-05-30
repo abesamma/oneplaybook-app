@@ -24,15 +24,15 @@ html {
   scroll-behavior: smooth;
 }
 a {
-  @apply text-primary;
+  @apply text-black;
   text-decoration: underline;
 }
 a.menu-item {
-  @apply text-primary;
+  @apply text-black;
   text-decoration: none;
 }
 a:hover {
-  @apply text-primary-highlight;
+  @apply text-highlight;
 }
 button:disabled, 
 button.primary:disabled,  

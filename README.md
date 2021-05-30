@@ -15,3 +15,14 @@ This webpage runs on Gatsby, Reactjs, TailwindCSS and Material-UI.
 ## To build web site
 
 `gatsby build`
+
+## **Important**: development guidelines
+
+* All active development takes place in the development branch
+  * If you would like to work on, experiment or contribute to Oneplaybook, fork from `oneplaybook-dev-branch`
+  * Once you've forked the development branch, create working branches for your contributions from that branch, then merge back to the development branch
+  * Finally, make a pull request to merge your changes with this repository
+* Changes from `oneplaybook-dev-branch` will be merged to the pre-release branch periodically
+* Finally, stable changes from the pre-release branch will be merged to the release `master` branch and tagged accordingly
+* This workflow may change depending on needs and circumstances. So check this page out periodically
+* Suggestions for improvement are ALWAYS welcomed!

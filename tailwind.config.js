@@ -1,12 +1,10 @@
 /* eslint-disable no-undef */
 module.exports = {
+  purge: ['./src/**/*.js'],
   theme: {
     extend: {
       colors: {
-        primary: {
-          highlight: '#FF512F',
-          default: 'black'
-        }
+        highlight: '#FF512F'
       }
     },
     fontFamily: {

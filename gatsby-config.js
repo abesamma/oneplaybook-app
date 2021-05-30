@@ -1,11 +1,6 @@
 module.exports = {
   plugins: [
-    {
-      resolve: `gatsby-theme-codebushi`,
-      options: {
-        tailwindConfig: `tailwind.config.js`
-      }
-    },
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-material-ui`,
     {
       resolve: `gatsby-plugin-anchor-links`,

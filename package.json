@@ -1,7 +1,7 @@
 {
   "name": "oneplaybook",
   "author": "Abraham Samma",
-  "version": "0.9.3",
+  "version": "0.10.0",
   "license": " MPL-2.0",
   "scripts": {
     "develop": "gatsby develop",
@@ -10,19 +10,23 @@
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
+    "autoprefixer": "^10.2.6",
     "browser-monads": "^1.0.0",
     "clsx": "^1.1.1",
-    "gatsby": "^2.24.15",
+    "gatsby": "^2.26.1",
     "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-manifest": "^2.4.32",
-    "gatsby-plugin-material-ui": "^2.1.9",
-    "gatsby-plugin-offline": "^3.2.29",
+    "gatsby-plugin-material-ui": "^2.1.10",
+    "gatsby-plugin-offline": "^3.10.2",
+    "gatsby-plugin-postcss": "^3.7.0",
     "gatsby-plugin-react-helmet": "^3.3.12",
-    "gatsby-theme-codebushi": "1.0.0",
+    "postcss": "^8.3.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-page-scroller": "^2.1.0",
+    "tailwindcss": "^2.1.2"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
