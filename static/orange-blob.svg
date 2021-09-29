@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 673.08337 596.94525"
+   width="673.08337"
+   id="blobSvg"
+   version="1.1"
+   height="596.94525">
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs7">
+    <linearGradient
+       id="gradient"
+       x1="-72.49156"
+       y1="-60.04702"
+       x2="-72.49156"
+       y2="573.82515"
+       gradientTransform="matrix(1.0618598,0,0,0.94174392,76.975873,56.548916)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color: rgb(255, 95, 109);"
+         id="stop2" />
+      <stop
+         offset="100%"
+         style="stop-color: rgb(255, 106, 0);"
+         id="stop4" />
+    </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter862"
+       x="-0.30885348"
+       width="1.6177069"
+       y="-0.37803012"
+       height="1.7560602">
+      <feGaussianBlur
+         stdDeviation="53.543933"
+         id="feGaussianBlur864" />
+    </filter>
+  </defs>
+  <path
+     id="blob"
+     d="m 505.47587,375.54892 q -68.5,69 -143.5,87 -75,18 -158.5,-19 -83.5,-37 -74,-132 9.5,-95 83.5,-138 74,-43 166,-45 92,-2 143.5,88 51.5,90 -17,159 z"
+     fill="url(#gradient)"
+     style="fill:url(#gradient);filter:url(#filter862);opacity:0.85" />
+</svg>

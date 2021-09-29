@@ -8,9 +8,9 @@ export default () => (
   <>
     <Seo
       href="https://oneplaybook.app"
-      title="Profit with Wikis | Oneplaybook"
+      title="Oneplaybook | Terms & Conditions"
       metaImg={MetaImg}
-      description="Oneplaybook: manage your knowledge and work better with TiddlyWiki."
+      description="Oneplaybook: forkable, editable & shareable workspaces for managing knowledge better. Powered by TiddlyWiki."
     />
   <Layout>
     <section className="pt-8">

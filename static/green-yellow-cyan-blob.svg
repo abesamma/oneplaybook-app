@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 693.6659 606.85283"
+   width="693.66589"
+   id="blobSvg"
+   version="1.1"
+   height="606.85284">
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs7">
+    <linearGradient
+       id="gradient"
+       x1="203.45357"
+       y1="50.442406"
+       x2="203.45357"
+       y2="381.1669"
+       gradientTransform="matrix(0,-0.82692467,1.2093,0,33.602459,536.32746)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#00c3ff;stop-opacity:1"
+         id="stop2" />
+      <stop
+         offset="100%"
+         style="stop-color:#ffff1c;stop-opacity:1"
+         id="stop4" />
+    </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter862"
+       x="-0.2365386"
+       width="1.4730772"
+       y="-0.34591559"
+       height="1.6918312">
+      <feGaussianBlur
+         stdDeviation="39.417691"
+         id="feGaussianBlur864" />
+    </filter>
+  </defs>
+  <path
+     id="blob"
+     d="m 326.10246,101.82746 c 28.33333,5.66667 55.83333,15.83333 82.5,30.5 26.66667,14.66667 49.16667,35.66667 67.5,63 18.33333,27.33333 23,56.66667 14,88 -9,31.33333 -7.36748,63.10874 -36.29368,73.34201 -30.37546,10.74597 -14.46345,0.96096 -46.13011,5.96096 -31.66667,5 -65.55007,-1.50765 -95.08179,3.40149 -37.60718,6.25155 -42.13568,-3.81041 -72.13568,-3.2342 -30.40821,0.58405 -42.83516,0.86033 -70.21748,-11.75465 -32.41134,-14.93184 -36.03097,-22.85625 -48.36431,-45.18959 -12.33334,-22.33333 -11.44362,5.80731 -17.77695,-21.52602 -6.333339,-27.33333 -9.499999,-59 -9.499999,-95 0,-36 16.166659,-60.5 48.499999,-73.5 32.33333,-13 63.83333,-20 94.5,-21 30.66667,-1 60.16667,1.33333 88.5,7 z"
+     fill="url(#gradient)"
+     style="fill:url(#gradient);filter:url(#filter862);opacity:0.85"
+     transform="rotate(-15.960286,605.67594,-117.88443)" />
+</svg>

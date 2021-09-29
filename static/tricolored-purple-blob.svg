@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   height="767.3609"
+   version="1.1"
+   id="blobSvg"
+   width="732.81836"
+   viewBox="0 0 732.81835 767.3609">
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs7">
+    <linearGradient
+       id="linearGradient863">
+      <stop
+         id="stop859"
+         offset="0"
+         style="stop-color:#ff0000;stop-opacity:1;" />
+      <stop
+         id="stop861"
+         offset="1"
+         style="stop-color:#f9d423;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="gradient"
+       x1="48.993294"
+       y1="87.680847"
+       x2="48.993294"
+       y2="476.4115"
+       gradientTransform="matrix(1.0347857,0,0,0.96638364,1.8587361,-36.245353)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color: rgb(255, 95, 109);"
+         id="stop838" />
+      <stop
+         offset="100%"
+         style="stop-color: rgb(63, 94, 251);"
+         id="stop840" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#gradient"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0347857,0,0,0.96638364,1.8587361,-36.245353)"
+       y2="476.4115"
+       x2="48.993294"
+       y1="87.680847"
+       x1="48.993294"
+       id="gradient-5">
+      <stop
+         id="stop2"
+         style="stop-color: rgb(255, 95, 109);"
+         offset="0%" />
+      <stop
+         id="stop4"
+         style="stop-color: rgb(63, 94, 251);"
+         offset="100%" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(-52.556297,87.588044)"
+       gradientUnits="userSpaceOnUse"
+       y2="227.02576"
+       x2="487.33713"
+       y1="283.71722"
+       x1="44.191986"
+       id="linearGradient865"
+       xlink:href="#linearGradient863" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98715424,0,0,0.8613771,137.64968,-60.610696)"
+       id="gradient-1"
+       x1="386.98264"
+       y1="126.46938"
+       x2="105.48556"
+       y2="410.75684">
+      <stop
+         offset="0%"
+         style="stop-color:#22c1c3;stop-opacity:1"
+         id="stop880" />
+      <stop
+         offset="100%"
+         style="stop-color:#fdbb2d;stop-opacity:1"
+         id="stop882" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,1.1063358,-0.9038847,0,676.35627,183.97018)"
+       id="gradient-9"
+       x1="46.57679"
+       y1="79.608078"
+       x2="46.57679"
+       y2="455.68967">
+      <stop
+         offset="0%"
+         style="stop-color:#333399;stop-opacity:1"
+         id="stop910" />
+      <stop
+         offset="100%"
+         style="stop-color:#ff00cc;stop-opacity:1"
+         id="stop912" />
+    </linearGradient>
+    <filter
+       height="1.6083162"
+       y="-0.30415812"
+       width="1.6557944"
+       x="-0.32789719"
+       id="filter1014"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur1012"
+         result="fbSourceGraphic"
+         stdDeviation="82.57541" />
+      <feColorMatrix
+         id="feColorMatrix1016"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         stdDeviation="6.95795 7.56211"
+         id="feGaussianBlur1018" />
+      <feColorMatrix
+         id="feColorMatrix1020"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         stdDeviation="6.95795 7.56211"
+         id="feGaussianBlur1022" />
+      <feColorMatrix
+         id="feColorMatrix1024"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         stdDeviation="6.95795 7.56211"
+         id="feGaussianBlur1026" />
+      <feColorMatrix
+         id="feColorMatrix1028"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         stdDeviation="6.95795 7.56211"
+         id="feGaussianBlur1030" />
+      <feColorMatrix
+         id="feColorMatrix1032"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         stdDeviation="6.95795 7.56211"
+         id="feGaussianBlur1034" />
+      <feColorMatrix
+         id="feColorMatrix1036"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         stdDeviation="6.95795 7.56211"
+         id="feGaussianBlur1038" />
+      <feColorMatrix
+         id="feColorMatrix1040"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         stdDeviation="6.95795 7.56211"
+         id="feGaussianBlur1042" />
+      <feColorMatrix
+         id="feColorMatrix1044"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         stdDeviation="6.95795 7.56211"
+         id="feGaussianBlur1046" />
+      <feColorMatrix
+         id="feColorMatrix1048"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         in="fbSourceGraphic"
+         result="blur"
+         stdDeviation="6.95795 7.56211"
+         id="feGaussianBlur1050" />
+    </filter>
+  </defs>
+  <g
+     style="mix-blend-mode:normal;filter:url(#filter1014);opacity:0.8"
+     transform="matrix(0.73226058,0,0,0.73226058,145.12012,145.12013)"
+     id="g930">
+    <path
+       id="blob"
+       d="m 381.30244,386.34269 q -46,85 -140.5,115.5 -94.5,30.5 -175.999997,-33 -81.500004,-63.5 -60.5000041,-157.5 21.0000001,-94 88.0000041,-140 66.999997,-46 145.999997,-32 79,14 134,88 55,74 9,159 z"
+       fill="url(#gradient)"
+       style="fill:url(#linearGradient865);fill-opacity:1" />
+    <path
+       style="fill:url(#gradient-1);stroke-width:0.922124"
+       fill="url(#gradient)"
+       d="m 548.96281,233.73301 q -42.76929,60.73759 -97.82337,89.70475 -55.05408,28.96716 -114.65808,17.75406 -59.60401,-11.21309 -108.28819,-55.13104 -48.68419,-43.91795 -49.59418,-113.53257 -0.90998,-69.61462 50.50416,-109.794873 51.41414,-40.180253 109.19818,-56.0654685 57.78403,-15.885216 122.84795,6.0737585 65.06391,21.958976 97.82336,91.106393 32.75945,69.1474 -10.00983,129.88499 z"
+       id="blob-3" />
+    <path
+       style="fill:url(#gradient-9)"
+       fill="url(#gradient)"
+       d="m 357.35627,612.47016 q -69,-68.5 -87,-143.5 -18,-75 19,-158.49999 37,-83.49999 132,-73.99999 95,9.5 138,83.49999 43,73.99999 45,165.99999 2,92 -88,143.5 -90,51.5 -159,-17 z"
+       id="blob-1" />
+  </g>
+</svg>

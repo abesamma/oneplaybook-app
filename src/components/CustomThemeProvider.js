@@ -2,15 +2,15 @@ import React from 'react';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 
 const theme = createMuiTheme({
-  breakpoints: {
-    values: {
-      xs: 0,
-      sm: 768,
-      md: 960,
-      lg: 1280,
-      xl: 1920
+  palette: {
+    primary: {
+      main: '#fafafa'
+    },
+    secondary: {
+      main: '#110011'
     }
-  }
+  },
+  spacing: 2
 });
 
 const CustomThemeProvider = props => {

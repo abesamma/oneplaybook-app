@@ -32,7 +32,10 @@ a.menu-item {
   text-decoration: none;
 }
 a:hover {
-  @apply text-highlight;
+  @apply highlight-link;
+}
+button {
+  @apply rounded-full;
 }
 button:disabled, 
 button.primary:disabled,  
@@ -66,13 +69,13 @@ button.primary-text-bg:active {
   box-shadow: inset 0 0 2.5px grey;
 }
 button.primary {
-  box-shadow: #e32c6a 0 10px 15px -10px;
+  box-shadow: #051937 0 10px 15px -10px;
 }
 button.primary:hover {
-  box-shadow: #e32c6a 0 10px 40px -10px;
+  box-shadow: #051937 0 10px 40px -10px;
 }
 button.primary:focus {
-  box-shadow: #e32c6a 0 10px 40px -10px;
+  box-shadow: #051937 0 10px 40px -10px;
   outline: none;
 }
 button.primary:active {
@@ -80,7 +83,7 @@ button.primary:active {
 }
 i {
   z-index: -1;
-  color: #DD2476;
+  color: #051937;
 }
 p {
   @apply font-body
@@ -178,44 +181,43 @@ p {
  .gg-close::after {
   transform: rotate(-45deg)
  }
- .gg-smile-mouth-open {
+ .gg-git-fork {
   box-sizing: border-box;
   position: relative;
   display: block;
   transform: scale(var(--ggs,1));
-  width: 20px;
-  height: 20px;
-  border: 2px solid;
-  border-radius: 100px
+  width: 2px;
+  height: 14px;
+  background: currentColor
  }
  
- .gg-smile-mouth-open::after,
- .gg-smile-mouth-open::before {
+ .gg-git-fork::after,
+ .gg-git-fork::before {
   content: "";
   display: block;
   box-sizing: border-box;
-  position: absolute;
-  left: 4px
+  position: absolute
  }
  
- .gg-smile-mouth-open::before {
-  background: currentColor;
-  box-shadow: 6px 0 0;
-  width: 2px;
-  height: 2px;
-  border-radius: 50%;
-  top: 5px
- }
- 
- .gg-smile-mouth-open::after {
+ .gg-git-fork::before {
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  border-bottom-right-radius: 4px;
+  bottom: 4px;
   width: 8px;
-  height: 4px;
-  border-radius: 150px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border: 2px solid;
-  top: 9px
+  height: 6px;
+  left: 0
  }
+ 
+ .gg-git-fork::after {
+  width: 4px;
+  height: 4px;
+  background: currentColor;
+  box-shadow:0 12px 0 0,6px 2px 0 0;
+  border-radius: 100%;
+  left: -1px;
+  top: -1px
+ } 
  .gg-lock-unlock {
   box-sizing: border-box;
   position: relative;
@@ -281,7 +283,7 @@ p {
   left: 5px
  }
 .emphasis {
-  text-decoration: underline #e22b6b double 5px;
+  text-decoration: underline #051937 double 5px;
   text-decoration-skip-ink: none;
   text-underline-offset: 10px;
 }
@@ -299,21 +301,28 @@ p {
   box-shadow: inset 0 0 2.5px;
 }
 .primary {
-  background: #FF512F;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
-  background: linear-gradient(to right, #DD2476, #FF512F);
+  background: #051937;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right top, #051937, #171228, #190a1a, #12040d, #000000);
+  background: linear-gradient(to right top, #051937, #171228, #190a1a, #12040d, #000000);
   color: white;
 }
 .primary-text-bg {
-  /* background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background: linear-gradient(to right, #DD2476, #FF512F);
-  background-clip: text;
-  color: transparent; */
-  color: #DD2476;
+  color: #051937;
 }
 
 @tailwind components;
 
 @tailwind utilities;
+
+@layer components {
+  .highlight-link {
+    text-decoration: solid underline black 4px;
+    text-underline-offset: 5px;
+  }
+  /* .viewcontainer-h-full {
+    min-height: 92vh;
+  }
+  .viewcontainer-h-full-mobile {
+    min-height: 88vh;
+  } */
+}

@@ -12,11 +12,11 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `OnePlaybook`,
-        description: `Oneplaybook: manage your knowledge and work better with TiddlyWiki.`,
+        description: `Oneplaybook: forkable, editable & shareable workspaces for managing knowledge better. Powered by TiddlyWiki.`,
         lang: `en`,
         start_url: `/`,
-        background_color: `#fff5f7`,
-        theme_color: `#fff5f7`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
         display: `standalone`,
         icon: `src/assets/icon.png`,
         legacy: `true`

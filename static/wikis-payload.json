@@ -1,0 +1,69 @@
+{
+    "entries": [
+      {
+        ".tag": "folder",
+        "name": "Personal journal wiki",
+        "path_lower": "/shared with sr. vene",
+        "path_display": "/Shared with Sr. Vene",
+        "id": "id:Q3S4-9S7yfAAAAAAAAAAFg",
+        "shared_folder_id": "8362024960",
+        "sharing_info": {
+          "read_only": false,
+          "shared_folder_id": "8362024960",
+          "traverse_only": false,
+          "no_access": false
+        }
+      },
+      {
+        ".tag": "folder",
+        "name": "PSBI",
+        "path_lower": "/psbi",
+        "path_display": "/PSBI",
+        "id": "id:Q3S4-9S7yfAAAAAAAAAAFw",
+        "shared_folder_id": "7840172096",
+        "sharing_info": {
+          "read_only": false,
+          "shared_folder_id": "7840172096",
+          "traverse_only": false,
+          "no_access": false
+        }
+      },
+      {
+        ".tag": "folder",
+        "name": "Business journal wiki",
+        "path_lower": "/mobile uploads",
+        "path_display": "/Mobile Uploads",
+        "id": "id:Q3S4-9S7yfAAAAAAAAAAHA"
+      },
+      {
+        ".tag": "folder",
+        "name": "Test wiki",
+        "path_lower": "/mobile uploads",
+        "path_display": "/Mobile Uploads",
+        "id": "id:Q3S4-9S7yfAAAAAAAAAAHA"
+      },
+      {
+        ".tag": "folder",
+        "name": "New wiki",
+        "path_lower": "/mobile uploads",
+        "path_display": "/Mobile Uploads",
+        "id": "id:Q3S4-9S7yfAAAAAAAAAAHA"
+      },
+      {
+        ".tag": "folder",
+        "name": "Test new wiki",
+        "path_lower": "/mobile uploads",
+        "path_display": "/Mobile Uploads",
+        "id": "id:Q3S4-9S7yfAAAAAAAAAAHA"
+      },
+      {
+        ".tag": "folder",
+        "name": "Journal wiki",
+        "path_lower": "/mobile uploads",
+        "path_display": "/Mobile Uploads",
+        "id": "id:Q3S4-9S7yfAAAAAAAAAAHA"
+      }
+    ],
+    "cursor": "AAH6ueDNwTno6yBDarRlCeAPppSPVSs4XTGG-9kUIBEYRX41imhBcBaAcawFJduI-8gkQ4ED2rOwnmd4NZNkzzvBW3NmAKMdKCC4m3ELbz7zUskcwMZtSqo2jdAJJ6II8wcA4f2dWlWcw5ajrFfvvKrVhqM9JpHvM7VbQXPgJSYiryAO5guVjTlXDvqm2_434uiBkTjQjAXBqdkaZVgVENhPSW8vATtcYKYYhcbel6kyFM4VPrQC7pvmBHUdQNnB5X0",
+    "has_more": false
+  }
