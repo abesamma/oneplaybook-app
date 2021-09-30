@@ -9,6 +9,9 @@ const Header = () => {
     if (mq.matches) return;
     setMenu(false);
   };
+  const handleMenuClick = () => {
+    setMenu(!open);
+  };
   const logoAnchorLink = (
     <AnchorLink to="/#top">
       <LogoIcon className="w-52" />
