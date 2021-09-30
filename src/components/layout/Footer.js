@@ -40,7 +40,7 @@ const Footer = () => {
             <h2 className="text-lg font-semibold">Get in touch!</h2>
             <ul className="mt-4 leading-loose">
               <li>
-                <a href="https://twitter.com/One_Playbook">Twitter</a>
+                <a href="https://twitter.com/OnePlaybookHQ">Twitter</a>
               </li>
               <li>
                 <a href="https://github.com/abesamma/oneplaybook">GitHub</a>

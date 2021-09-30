@@ -30,16 +30,12 @@ export default () => (
               Supercharge your knowledge work
             </h1>
             <p className="font-semibold text-lg md:text-2xl mt-4">
-              Gather your scattered knowledge into one unique workspace built by thinkers for
-              thinkers
+              Unify scattered documents and apps into one intuitive super document
             </p>
             <p className="text-md md:text-lg mt-2">
-              <span className="primary-text-bg font-bold">Oneplaybook</span> workspace helps you:
-              <ul className="list-none md:list-disc list-inside mt-1">
-                <li>Create wiki notebooks that keep all knowledge in one place</li>
-                <li>Customize each notebook to fit any use case</li>
-                <li>Build, share and retrieve knowledge better</li>
-              </ul>
+              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you
+              stay organized better with documentable notebook spaces instead of
+			  ambiguous files and folders.
             </p>
             <p className="text-md md:text-lg mt-2">
               Use offline or with any cloud service. Perfect for individuals and teams.
