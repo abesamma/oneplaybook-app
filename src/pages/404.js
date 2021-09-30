@@ -10,7 +10,7 @@ export default () => (
       href="https://oneplaybook.app"
       title="Oneplaybook | 404 Not Found"
       metaImg={MetaImg}
-      description="Oneplaybook: forkable, editable & shareable workspaces for managing knowledge better. Powered by TiddlyWiki."
+      description="Wiki notebook workspaces for managing knowledge better. Powered by TiddlyWiki."
     />
     <Layout>
       <section className="pt-1">

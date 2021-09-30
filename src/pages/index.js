@@ -20,7 +20,7 @@ export default () => (
       href="https://oneplaybook.app"
       title="Oneplaybook | Think together"
       metaImg={MetaImg}
-      description="Oneplaybook: forkable, editable & shareable workspaces for managing knowledge better. Powered by TiddlyWiki."
+      description="Wiki notebook workspaces for managing knowledge better. Powered by TiddlyWiki."
     />
     <Layout>
       <section className="pt-10 bg-contain bg-left bg-no-repeat bg-tricolor-blob-orange">
@@ -33,9 +33,9 @@ export default () => (
               Unify scattered documents and apps into one intuitive super document
             </p>
             <p className="text-md md:text-lg mt-2">
-              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you
-              stay organized better with documentable notebook spaces instead of
-			  ambiguous files and folders.
+              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you stay
+              organized better with wiki notebook workspaces instead of ambiguous file directories
+              and excessive app switching.
             </p>
             <p className="text-md md:text-lg mt-2">
               Use offline or with any cloud service. Perfect for individuals and teams.

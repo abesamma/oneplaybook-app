@@ -10,7 +10,7 @@ export default () => (
       href="https://oneplaybook.app"
       title="Oneplaybook | Aboout us"
       metaImg={MetaImg}
-      description="Oneplaybook: forkable, editable & shareable workspaces for managing knowledge better. Powered by TiddlyWiki."
+      description="Wiki notebook workspaces for managing knowledge better. Powered by TiddlyWiki."
     />
     <Layout>
       <section className="pt-8">
@@ -25,10 +25,11 @@ export default () => (
         <div className="container mx-auto px-8 mt-4 text-center lg:text-justify">
           <p className="my-2">
             <span className="primary-text-bg font-bold">Oneplaybook</span> is a web app that allows
-            you to quickly get started building collaborative wiki workspaces that allow you to more
-            easily co-create and share useful knowledge and tools for thought built with TiddlyWiki,
-            a popular open source non-linear note taking app that is used by many knowledge workers
-            today. Unlike other, similar knowledge management software-as-a-service solutions,{' '}
+            you to quickly get started building collaborative wiki notebook workspaces that allow
+            you to more easily co-create and share useful knowledge and tools for thought built with
+            TiddlyWiki, a popular open source non-linear note taking app that is used by many
+            knowledge workers today. Unlike other, similar knowledge management
+            software-as-a-service solutions,{' '}
             <span className="primary-text-bg font-bold">Oneplaybook</span> offers you ways to keep
             data on servers/cloud services you trust instead of forcing you into our own backend
             solution. In fact, we don&apos;t have any servers to begin with for you to worry about!
