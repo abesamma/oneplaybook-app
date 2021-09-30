@@ -1,20 +1,9 @@
 import React from 'react';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
-import { window, document } from 'browser-monads';
 import LogoIcon from '../../svg/LogoIcon';
 
 const Header = () => {
   const [open, setMenu] = React.useState(false);
-  const [stickyHeader, setStickyHeader] = React.useState(true); // set back to false when ln 14 is fixed.
-  const headerScrollHandler = () => {
-    if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
-      setStickyHeader(true);
-    } else setStickyHeader(false);
-  };
-  // window.onscroll = headerScrollHandler; error: window object not extensible.
-  const handleMenuClick = () => {
-    setMenu(!open);
-  };
   const handleMenuClose = () => {
     const mq = window.matchMedia('(min-width: 1024px)');
     if (mq.matches) return;
@@ -66,7 +55,7 @@ const Header = () => {
   );
 
   return (
-    <header className={stickyHeader ? 'sticky top-0 bg-white shadow' : 'top-0 bg-white'}>
+    <header className="sticky top-0 bg-white shadow">
       {/** Add style to container div below for macHeight to prevent
        *webkit in iOS from expanding header to 100vh */}
       <div
