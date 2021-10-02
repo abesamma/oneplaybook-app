@@ -30,7 +30,7 @@ export default () => (
               Supercharge your knowledge work
             </h1>
             <p className="font-semibold text-lg md:text-2xl mt-4">
-              Unify scattered documents and apps into one intuitive super document
+              Unify scattered documents and apps into one super notebook document
             </p>
             <p className="text-md md:text-lg mt-2">
               <span className="primary-text-bg font-bold">Oneplaybook</span> helps you stay
