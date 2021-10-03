@@ -33,9 +33,9 @@ export default () => (
               Unify scattered documents and apps into one super notebook document
             </p>
             <p className="text-md md:text-lg mt-2">
-              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you stay
-              organized better with wiki notebook workspaces instead of ambiguous file directories
-              and excessive app switching.
+              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you manage
+              knowledge better and be productive with wiki notebook workspaces instead of ambiguous
+              file directories and excessive app switching.
             </p>
             <p className="text-md md:text-lg mt-2">
               Use offline or with any cloud service. Perfect for individuals and teams.
