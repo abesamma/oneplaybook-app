@@ -19,6 +19,7 @@ import MenuOutlinedIcon from '@material-ui/icons/MenuOutlined';
 import Toolbar from '@material-ui/core/Toolbar';
 import { useMediaQuery } from '@material-ui/core';
 import makeStyles from '@material-ui/styles/makeStyles';
+import getWikis from '../../data/wikis-data';
 
 const useStyles = makeStyles(theme => ({
   appBar: {
@@ -39,6 +40,11 @@ const useStyles = makeStyles(theme => ({
   nested: {
     paddingLeft: theme.spacing(20)
   },
+  text: {
+    overflow: 'hidden',
+    whiteSpace: 'nowrap',
+    textOverflow: 'ellipsis'
+  },
   title: {
     paddingLeft: theme.spacing(8)
   }
@@ -49,10 +55,32 @@ const WikiView = ({ closeWikiHandler }) => {
   const mediaQuery = useMediaQuery('(min-width: 1280px)');
   const [drawer, setDrawer] = React.useState(false);
   const [expand, setExpand] = React.useState(false);
+  const [wikis, setWikis] = React.useState([]);
   const toggleDrawer = () => setDrawer(!drawer);
   const toggleExpand = () => setExpand(!expand);
   const handleOpenDrawer = () => setDrawer(true);
   const handleCloseDrawer = () => setDrawer(false);
+  // for demonstration; api will do this for us and return new entry for insertion
+  React.useEffect(() => {
+    getWikis().then(
+      response => {
+        response.json().then(
+          json => {
+            const fetchedWikis = json.entries;
+            setWikis([...fetchedWikis]);
+          },
+          err => {
+            // eslint-disable-next-line no-console
+            console.log('%cError:%o', 'background-color: red; color: white;', err);
+          }
+        );
+      },
+      err => {
+        // eslint-disable-next-line no-console
+        console.log('%cError:%o', 'background-color: red; color: white;', err);
+      }
+    );
+  }, []);
   return (
     <>
       <AppBar className={classes.appBar} elevation={0} position="fixed">
@@ -95,12 +123,19 @@ const WikiView = ({ closeWikiHandler }) => {
           </ListItem>
           <Collapse in={expand} timeout="auto" unmountOnExit>
             <List component="div" disablePadding>
-              <ListItem button className={classes.nested}>
-                <ListItemIcon>
-                  <BookOutlinedIcon />
-                </ListItemIcon>
-                <ListItemText primary="Another wiki" />
-              </ListItem>
+              {wikis.map(wiki => (
+                <ListItem
+                  key={wiki.name}
+                  button
+                  className={classes.nested}
+                  onClick={handleCloseDrawer}
+                >
+                  <ListItemIcon>
+                    <BookOutlinedIcon />
+                  </ListItemIcon>
+                  <ListItemText className={classes.text} primary={wiki.name} />
+                </ListItem>
+              ))}
             </List>
           </Collapse>
         </List>

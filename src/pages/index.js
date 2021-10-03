@@ -42,7 +42,7 @@ export default () => (
             </p>
             <div className="mt-6 md:mt-4">
               <CtaButton className="primary font-body font-bold" size="lg">
-                Create workspace
+                Start Workspace
               </CtaButton>
             </div>
             <p className="mt-4">
@@ -195,7 +195,7 @@ export default () => (
         </p>
         <div className="mt-8">
           <CtaButton className="primary font-bold" size="xl">
-            Create free workspace
+            Start free workspace
           </CtaButton>
         </div>
       </section>
