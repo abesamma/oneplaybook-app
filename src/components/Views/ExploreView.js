@@ -8,7 +8,7 @@ const ExploreView = () => {
         <ConstructionIllustration />
       </div>
       <p className="italic text-xl text-center text-black text-opacity-50 mt-1 px-2">
-        Explore the Tiddlyverse. Coming soon!
+        Explore TiddlyWiki add-ons. Coming soon!
       </p>
     </>
   );

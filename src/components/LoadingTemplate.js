@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import LinearProgress from '@material-ui/core/LinearProgress';
 import makeStyles from '@material-ui/styles/makeStyles';
 import LoadingIllustration from '../svg/LoadingIllustration';
@@ -9,7 +10,7 @@ const useStyles = makeStyles({
   }
 });
 
-const LoadingTemplate = ({ hidden = false }) => {
+const LoadingTemplate = ({ hidden }) => {
   const classes = useStyles();
   return (
     <div className={hidden ? 'hidden' : 'container mx-auto pt-24 w-80 md:w-96 lg:w-1/3'}>
@@ -20,6 +21,14 @@ const LoadingTemplate = ({ hidden = false }) => {
       </div>
     </div>
   );
+};
+
+LoadingTemplate.defaultProps = {
+  hidden: false
+};
+
+LoadingTemplate.propTypes = {
+  hidden: PropTypes.bool
 };
 
 export default LoadingTemplate;

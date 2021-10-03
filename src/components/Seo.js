@@ -25,12 +25,6 @@ const Seo = ({ href, title, metaImg, description }) => {
       <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={description} />
       <meta property="twitter:image" content={metaImg} />
-
-      {/* Preloaded assets */}
-      <link rel="preload" href="/tricolored-orange-blob.svg" as="image" />
-      <link rel="preload" href="/errpr.svg" as="image" />
-      <link rel="preload" href="/blank_canvas.svg" as="image" />
-      <link rel="preload" href="/loading.svg" as="image" />
     </Helmet>
   );
 };
