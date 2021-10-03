@@ -49,6 +49,9 @@ const useStyles = makeStyles(theme => ({
     float: 'right',
     right: '16px',
     bottom: '72px'
+  },
+  gridContainer: {
+    paddingBottom: '25vh'
   }
 }));
 
@@ -177,7 +180,7 @@ const LibraryView = ({ newWiki }) => {
         </div>
       </div>
       {wikis.length > 0 ? (
-        <Grid container>
+        <Grid container className={classes.gridContainer}>
           {wikis.map(wiki => (
             <Grid item xs={12} key={wiki.name}>
               {mediaQuery ? (
