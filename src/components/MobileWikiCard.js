@@ -103,11 +103,13 @@ const MobileWikiCard = ({
     <>
       <Card className={classes.root} elevation={3}>
         <Checkbox
+          name="wiki-checkbox"
           color="secondary"
           className={classes.checkbox}
           checked={checked}
           onChange={handleCheck}
           inputProps={{ 'aria-label': 'check wiki' }}
+          value={title}
         />
         <CardActionArea className={classes.cardActionArea} onClick={openWikiHandler}>
           <CardMedia className={classes.media}>
