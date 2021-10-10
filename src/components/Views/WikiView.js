@@ -133,7 +133,10 @@ const WikiView = ({ closeWikiHandler }) => {
                   <ListItemIcon>
                     <BookOutlinedIcon />
                   </ListItemIcon>
-                  <ListItemText className={classes.text} primary={wiki.name} />
+                  <ListItemText
+                    primary={wiki.name}
+                    primaryTypographyProps={{ className: classes.text }}
+                  />
                 </ListItem>
               ))}
             </List>

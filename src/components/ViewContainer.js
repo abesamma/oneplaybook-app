@@ -10,14 +10,14 @@ const ViewContainer = ({ views, activeView, drawerOpen, newWiki }) => {
   const paddingLeftMobileView = mediaQuery ? '5vw' : '';
   return (
     <>
-      {filteredView.map(view => (
+      {filteredView.map(([key, value]) => (
         <div
           style={
             drawerOpen ? { paddingLeft: paddingLeftView } : { paddingLeft: paddingLeftMobileView }
           }
-          key={view[0]}
+          key={key}
         >
-          {view[0] === 'Library' ? React.cloneElement(view[1], { newWiki }) : view[1]}
+          {key === 'Library' ? React.cloneElement(value, { newWiki }) : value}
         </div>
       ))}
     </>

@@ -63,7 +63,9 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 const LibraryView = ({ newWiki }) => {
   const mediaQuery = useMediaQuery('(min-width: 1280px)');
   const classes = useStyles();
-  const [checked, setChecked] = React.useState(false);
+  const [allChecked, setAllChecked] = React.useState(false);
+  const [wikiChecked, setWikiChecked] = React.useState(false);
+  // bulk here means anything between all and none
   const [bulkChecked, setBulkChecked] = React.useState(false);
   const [wikis, setWikis] = React.useState([]);
   const [loading, setLoading] = React.useState(false);
@@ -76,7 +78,8 @@ const LibraryView = ({ newWiki }) => {
   const handleOpenWiki = () => setOpenWiki(true);
   const handleCloseWiki = () => setOpenWiki(false);
   const handleCheck = event => {
-    setChecked(event.target.checked);
+    setAllChecked(event.target.checked);
+    setWikiChecked(event.target.checked);
     setBulkChecked(event.target.checked);
   };
   const toggleReload = () => setReload(!reload);
@@ -106,11 +109,13 @@ const LibraryView = ({ newWiki }) => {
     if (retainedWikis.length > 0) {
       retainedWikis.forEach(wiki => updateWikis.push({ name: wiki.value }));
       setWikis(updateWikis);
-      setChecked(false);
+      setAllChecked(false);
+      setWikiChecked(false);
       setBulkChecked(false);
     } else {
       setWikis([]);
-      setChecked(false);
+      setAllChecked(false);
+      setWikiChecked(false);
       setBulkChecked(false);
     }
     handleCloseDialog();
@@ -119,13 +124,19 @@ const LibraryView = ({ newWiki }) => {
     const wikisNodeList = document.querySelectorAll('input[type="checkbox"][name="wiki-checkbox"]');
     const wikisArray = Array.from(wikisNodeList);
     const checkedWikis = wikisArray.filter(wiki => wiki.checked === true);
+    // shows bulk delete button only
     if (checkedWikis.length > 0) {
       setBulkChecked(true);
-    } else {
-      setBulkChecked(false);
+      setAllChecked(false);
     }
+    // shows bulk delete button AND selects all
     if (checkedWikis.length === wikisArray.length) {
-      setChecked(true);
+      setAllChecked(true);
+      setBulkChecked(true);
+    }
+    if (checkedWikis.length === 0) {
+      setBulkChecked(false);
+      setAllChecked(false);
     }
   };
   // for demonstration; api will do this for us and return new entry for insertion
@@ -160,13 +171,13 @@ const LibraryView = ({ newWiki }) => {
       <div className="flex sticky top-14 md:top-12 w-full h-14 items-center bg-white z-10">
         <Checkbox
           className={mediaQuery ? classes.checkbox : classes.checkboxMobile}
-          checked={checked}
+          checked={allChecked}
           onChange={handleCheck}
           color="secondary"
           disableRipple
           aria-label="select all items"
         />
-        <div hidden={!(checked || bulkChecked)}>
+        <div hidden={!(allChecked || bulkChecked)}>
           <Button
             className={mediaQuery ? classes.deleteAllButton : classes.deleteAllButtonMobile}
             onClick={handleOpenDialog}
@@ -185,7 +196,7 @@ const LibraryView = ({ newWiki }) => {
             <Grid item xs={12} key={wiki.name}>
               {mediaQuery ? (
                 <WikiCard
-                  checkedWiki={checked}
+                  checkedWiki={wikiChecked}
                   bulkChecker={bulkChecker}
                   deleteWikiHandler={deleteWiki}
                   openWikiHandler={handleOpenWiki}
@@ -194,7 +205,7 @@ const LibraryView = ({ newWiki }) => {
                 />
               ) : (
                 <MobileWikiCard
-                  checkedWiki={checked}
+                  checkedWiki={wikiChecked}
                   bulkChecker={bulkChecker}
                   deleteWikiHandler={deleteWiki}
                   openWikiHandler={handleOpenWiki}

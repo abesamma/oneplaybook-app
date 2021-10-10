@@ -23,7 +23,7 @@ export default () => (
       description="Wiki notebook workspaces for managing knowledge better. Powered by TiddlyWiki."
     />
     <Layout>
-      <section className="pt-10 bg-contain bg-left bg-no-repeat bg-tricolor-blob-orange">
+      <section className="pt-10 bg-contain bg-center lg:bg-left bg-no-repeat bg-tricolor-blob-orange">
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
