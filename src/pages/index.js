@@ -1,50 +1,62 @@
-/*
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at https://mozilla.org/MPL/2.0/.
- */
 import React from 'react';
 import CtaButton from '../components/CtaButton';
 import Card from '../components/Card';
+import CustomerCard from '../components/CustomerCard';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
+import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
-// import CloudVendors from '../svg/CloudVendors';
-import DocumentIllustration from '../svg/DocumentIllustration';
-import NotebookIllustration from '../svg/NotebookIllustration';
+import CloudVendors from '../svg/CloudVendors';
+import NotesIllustration from '../svg/NotesIllustration';
+import CollabIllustration from '../svg/CollabIllustration';
 import AppsIllustration from '../svg/AppsIllustration';
-import SyncIllustration from '../svg/SyncIllustration';
-import MetaImg from '../assets/workspace.png';
+import BuildIllustration from '../svg/BuildIllustration';
+import Setup from '../svg/Setup';
+import MetaImg from '../assets/meta_image.png';
 import Seo from '../components/Seo';
 
-const IndexPage = () => (
+export default () => (
   <>
     <Seo
-      href="https://neublio.com"
-      title="Neublio - knowledge work evolved"
+      href="https://oneplaybook.app"
+      title="Profit with Wikis | Oneplaybook"
       metaImg={MetaImg}
-      description="Neublio: your integrated knowledge work toolsuite."
+      description="Oneplaybook: manage your knowledge and work better with TiddlyWiki."
     />
     <Layout>
       <section className="pt-10">
         <div className="container mx-auto px-8 lg:flex">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="font-header text-3xl lg:text-4xl xl:text-5xl leading-none">
-              Neublio: knowledge work evolved
+              Capture, organize and share knowledge better together with one tool
             </h1>
             <p className="font-body text-md md:text-lg mt-4">
-              Whether you&apos;re a student or a professional working on a personal passion project, job hunting, managing a team or running a business,
-              you need a modern software suite that can up your game, free up time, and keep you motivated.
+              It&apos;s easy to lose track of knowledge and direction amid so many sites, apps,
+              chats, emails and collaborators.
             </p>
             <p className="font-body text-md md:text-lg mt-4">
-              <span className="primary-text-bg font-bold">Neublio</span> is an integrated knowledge work toolsuite
-              that helps you <span className="font-bold">find</span>, <span className="font-bold">execute</span> and <span className="font-bold">manage</span> knowledge work <span className="font-bold emphasis">your way</span>.
+              <span className="primary-text-bg font-bold">Oneplaybook</span> helps you build
+              internal wiki spaces for sharing knowledge, docs, notes and more. Use offline or
+              with any cloud service of your choice. Perfect for individuals and teams who want 
+              to have a single clean and organized source of truth to refer to. Coming very soon!
             </p>
             <div className="mt-6 md:mt-4">
               <CtaButton className="primary font-body font-bold" size="lg">
-                Get started
+                Join wait list
               </CtaButton>
             </div>
+            <p className="mt-4">
+              Powered by{' '}
+              <a
+                className="underline"
+                href="https://tiddlywiki.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                TiddlyWiki
+              </a>
+              .
+            </p>
           </div>
           <div className="hidden lg:block w-1/2">
             <HeroImage />
@@ -54,40 +66,40 @@ const IndexPage = () => (
       <section id="benefits" className="pt-20 lg:pt-32">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl lg:text-5xl font-header">What do you gain?</h2>
-          <div className="flex flex-col lg:flex-row lg:mx-3 mt-12">
+          <div className="flex flex-col lg:flex-row lg:-mx-3 mt-12">
             <div className="flex-1 px-3">
-              <Card className="mb-8" icon={<i className="gg-time" />}>
-                <p className="font-semibold text-xl">Get your time back</p>
+              <Card className="mb-8" icon={<i className="gg-lock-unlock mb-8" />}>
+                <p className="font-semibold text-xl">No lock-ins</p>
                 <p className="mt-4">
-                  Neublio helps make knowledge work faster and easier. Spend less time searching,
-                  and doing busywork and more time doing meaningful work.
+                  Deploy your Oneplaybook to cloud services you trust like Dropbox, Google Drive, or
+                  a private server, with complete offline support. All data remains with you.
                 </p>
               </Card>
             </div>
             <div className="flex-1 px-3">
               <Card className="mb-8" icon={<i className="gg-dollar" />}>
-                <p className="font-semibold text-xl">Get your money's worth</p>
+                <p className="font-semibold text-xl">Pay less, get more</p>
                 <p className="mt-4">
-                  Replace many tools and subscriptions with just Neublio, a consolidated,
-                  powerful, evergrowing knowledge work toolsuite.
+                  Oneplaybook&apos;s rich set of features replace apps like Evernote, Miro, and
+                  Notion. Get the power of all these apps and more for the price of one app.
                 </p>
               </Card>
             </div>
             <div className="flex-1 px-3">
               <Card className="mb-8" icon={<i className="gg-smile-mouth-open" />}>
-                <p className="font-semibold text-xl">Do more, no stress</p>
+                <p className="font-semibold text-xl">Lean and flexible</p>
                 <p className="mt-4">
-                  No matter the scale of your work needs, Neublio's flexible, extensible toolset adapts to you, offering
-                  more control, options and wins for less.
+                  Whether it&apos;s a personal project or a collaborative effort, pick the exact
+                  template or TiddlyWiki plugin you need for your work.
                 </p>
               </Card>
             </div>
             <div className="flex-1 px-3">
-              <Card className="mb-8" icon={<i className="gg-lock-unlock mb-8" />}>
-                <p className="font-semibold text-xl">Unlock potential</p>
+              <Card className="mb-8" icon={<i className="gg-time" />}>
+                <p className="font-semibold text-xl">Just work, save time</p>
                 <p className="mt-4">
-                  With Neublio, you have a powerful platform to not
-                  just manage your knowledge work, but to explore, create and innovate on top of it.
+                  Oneplaybook offers you a managed app experience so you can concentrate on getting
+                  valuable work done and not waste time on maintenance.
                 </p>
               </Card>
             </div>
@@ -96,42 +108,43 @@ const IndexPage = () => (
       </section>
       <div className="mx-auto text-center">
         <h2 id="features" className="text-3xl lg:text-5xl font-header py-20 lg:pt-32">
-          Core features
+          Empower yourself & your teams
         </h2>
       </div>
       <SplitSection
         reverseOrder
         primarySlot={
           <div className="lg:pl-32 xl:pl-48">
-            <h3 className="text-3xl font-header leading-tight">Databook: a document database</h3>
+            <h3 className="text-3xl font-header leading-tight">All knowledge in one place</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
-              Keep your knowledge in one neat, organized document database. Find what you need
-              instantly with powerful search and filters.
+              Capture and save all knowledge that is important to you and your team in one simple
+              shared workspace so you do not waste time searching for it in endless email threads or
+              headhunting that one person who might know.
             </p>
           </div>
         }
-        secondarySlot={<DocumentIllustration />}
+        secondarySlot={<NotesIllustration />}
       />
       <SplitSection
         primarySlot={
           <div className="lg:pr-32 xl:pr-48">
-            <h3 className="text-3xl font-header leading-tight">Notebook: an extensible document editor</h3>
+            <h3 className="text-3xl font-header leading-tight">Effortless collaboration</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
-              Create rich documents with text, images, tables, code blocks, and more. Customize
-              your editor to accommodate your unique data and workflow needs.
+              Easily manage remote teams. Work on stuff together with anyone and everyone, in
+              real-time or asynchronously, in one neat workspace.
             </p>
           </div>
         }
-        secondarySlot={<NotebookIllustration />}
+        secondarySlot={<CollabIllustration />}
       />
       <SplitSection
         reverseOrder
         primarySlot={
           <div className="lg:pl-32 xl:pl-48">
-            <h3 className="text-3xl font-header leading-tight">Playbook: a composable view and workflow builder</h3>
+            <h3 className="text-3xl font-header leading-tight">Accommodate any workflow</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
-              Build custom views, capture, use and automate workflows by composing document based components together. Tailor your knowledge
-              work environment to fit your needs.
+              Oneplaybook allows you to integrate any workflow that you may favor via third party
+              plugins and integrations
             </p>
           </div>
         }
@@ -140,28 +153,28 @@ const IndexPage = () => (
       <SplitSection
         primarySlot={
           <div className="lg:pr-32 xl:pr-48">
-            <h3 className="text-3xl font-header leading-tight">Flexible hosting API</h3>
+            <h3 className="text-3xl font-header leading-tight">Automate tedious work</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
-              Host your data wherever you want, whether on your local machine, a private server, or get more with our premium cloud service.
-              Neublio's flexible hosting API gives you the freedom to choose the hosting solution that best fits your needs and preferences.
+              Stay productive by turning tedious workflows and processes into low code applications
+              to quickly automate your life and get things done faster and more efficiently
             </p>
           </div>
         }
-        secondarySlot={<SyncIllustration />}
+        secondarySlot={<BuildIllustration />}
       />
-      {/* <section id="cloud" className="py-20 lg:pt-32">
+      <section id="cloud" className="py-20 lg:pt-32">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl lg:text-5xl font-header pb-5">Host your data on any cloud service</h2>
+          <h2 className="text-3xl lg:text-5xl font-header pb-5">Host on any cloud service</h2>
           <CloudVendors />
         </div>
-      </section> */}
-      {/* <section id="setup" className="py-20 lg:pt-32">
+      </section>
+      <section id="setup" className="py-20 lg:pt-32">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl lg:text-5xl font-header pb-5">Quick setup in three clicks</h2>
           <Setup />
         </div>
-      </section> */}
-      {/* <section id="opensource" className="py-20 lg:py-40">
+      </section>
+      <section id="opensource" className="py-20 lg:py-40">
         <div className="container mx-auto">
           <h2 className="text-3xl lg:text-5xl font-header pb-5 text-center">
             Powered by 5k starred open source software
@@ -174,20 +187,18 @@ const IndexPage = () => (
             ))}
           </div>
         </div>
-      </section> */}
+      </section>
       <section className="bg-purple-100 container mx-auto my-20 py-24 rounded-lg text-center">
-        <h3 className="text-5xl font-header">Ready to upgrade your knowledge work?</h3>
+        <h3 className="text-5xl font-header">Ready to create your first playbook?</h3>
         <p className="mt-8 text-xl font-light">
-          Join teams and professionals using Neublio to work smarter and faster.
+          Behind every successful project is a team with a good playbook. Let&apos;s do this!
         </p>
         <div className="mt-8">
           <CtaButton className="primary font-bold" size="xl">
-            Get started with Neublio
+            Join wait list
           </CtaButton>
         </div>
       </section>
     </Layout>
   </>
 );
-
-export default IndexPage;

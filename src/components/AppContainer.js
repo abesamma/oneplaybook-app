@@ -1,14 +1,8 @@
-/*
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at https://mozilla.org/MPL/2.0/.
- */
 /* eslint-disable no-alert */
 import React from 'react';
-import Paper from '@mui/material/Paper';
-import Grid2 from '@mui/material/Grid2';
-import Grid from '@mui/material/Grid';
-import useMediaQuery from '@mui/material/useMediaQuery';
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { document } from 'browser-monads';
 import StepperContainer from './StepperContainer';
 import FormContainer from './Forms/FormContainer';
@@ -39,7 +33,7 @@ const AppContainer = ({ className, controls }) => {
       alert(
         `Sorry about that. Something went wrong. Check your network connection,
         or try temporarily disabling any browser extensions that could interfere with form submission,
-        then try again. If the problem persists, please contact us: abraham.samma@neublio.com.`
+        then try again. If the problem persists, please contact us: oneplaybooklab@gmail.com.`
       );
     });
   };
@@ -122,7 +116,7 @@ const AppContainer = ({ className, controls }) => {
         unfilledItems[key] = false;
       });
       setFormError(unfilledItems);
-      if (!honeypot?.value && activeIndex === 2) {
+      if (!honeypot.value && activeIndex === 2) {
         const submit = new Promise(resolve => {
           setLoading(true);
           resolve();
@@ -148,7 +142,7 @@ const AppContainer = ({ className, controls }) => {
               <StepperContainer activeIndex={activeIndex} steps={steps} />
             </div>
           ) : (
-            <div className="rounded-t-lg flex justify-center bg-pink-100 h-14" elevation={2}>
+            <div className="rounded-t-lg flex justify-center bg-pink-100" elevation={2}>
               <StepperContainer activeIndex={activeIndex} steps={steps} />
             </div>
           )}

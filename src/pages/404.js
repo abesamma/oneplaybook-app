@@ -1,21 +1,16 @@
-/*
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at https://mozilla.org/MPL/2.0/.
- */
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import NotFoundIllustration from '../svg/NotFound';
-import MetaImg from '../assets/workspace.png';
+import MetaImg from '../assets/meta_image.png';
 import Seo from '../components/Seo';
 
-const NotFoundPage = () => (
+export default () => (
   <>
     <Seo
-      href="https://neublio.com"
-      title="Neublio - knowledge work evolved"
+      href="https://oneplaybook.app"
+      title="Profit with Wikis | Oneplaybook"
       metaImg={MetaImg}
-      description="Neublio: your integrated knowledge work toolsuite."
+      description="Oneplaybook: manage your knowledge and work better with TiddlyWiki."
     />
     <Layout>
       <section className="pt-1">
@@ -32,5 +27,3 @@ const NotFoundPage = () => (
     </Layout>
   </>
 );
-
-export default NotFoundPage;

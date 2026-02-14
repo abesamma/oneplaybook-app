@@ -1,26 +1,12 @@
-/*
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at https://mozilla.org/MPL/2.0/.
- */
 module.exports = {
-  siteMetadata: {
-    title: `Neublio - knowledge work evolved`,
-    description: `Neublio: your integrated knowledge work toolsuite.`,
-    siteUrl: `https://neublio.com`
-  },
   plugins: [
-    `gatsby-plugin-postcss`,
-    `gatsby-plugin-image`,
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-theme-codebushi`,
       options: {
-        name: `assets`,
-        path: `${__dirname}/src/assets`,
-      },
+        tailwindConfig: `tailwind.config.js`
+      }
     },
+    `gatsby-plugin-material-ui`,
     {
       resolve: `gatsby-plugin-anchor-links`,
       options: {
@@ -30,8 +16,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Neublio`,
-        description: `Neublio: your integrated knowledge work toolsuite.`,
+        name: `OnePlaybook`,
+        description: `Oneplaybook: manage your knowledge and work better with TiddlyWiki.`,
         lang: `en`,
         start_url: `/`,
         background_color: `#fff5f7`,

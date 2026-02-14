@@ -1,13 +1,8 @@
-/*
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at https://mozilla.org/MPL/2.0/.
- */
 import React from 'react';
 import clsx from 'clsx';
-import Check from '@mui/icons-material/Check';
-import { withStyles } from '@mui/styles';
-import useMediaQuery from '@mui/material/useMediaQuery';
+import Check from '@material-ui/icons/Check';
+import { withStyles } from '@material-ui/core/styles';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 const StepIcon = ({ active, completed, classes }) => {
   const mediaQuery = useMediaQuery('(min-width: 768px)');
