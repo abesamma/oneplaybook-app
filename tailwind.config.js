@@ -1,23 +1,19 @@
-/** @type {import('tailwindcss').Config} */
+/* eslint-disable no-undef */
 module.exports = {
-  content: [
-    './src/pages/**/*.{js,jsx,ts,tsx}',
-    './src/components/**/*.{js,jsx,ts,tsx}',
-    './src/svg/**/*.{js,jsx,ts,tsx}',
-  ],
   theme: {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#DD2476',
           highlight: '#FF512F',
+          default: 'black'
         }
-      },
-      fontFamily: {
-        header: ['Roboto', 'sans-serif'],
-        body: ['Noto Sans JP', 'sans-serif']
       }
-    }
-  },
-  plugins: []
+    },
+    fontFamily: {
+      header: ['Roboto', 'sans-serif'],
+      body: ['Noto Sans JP', 'sans-serif']
+    },
+    variants: {},
+    plugins: []
+  }
 };

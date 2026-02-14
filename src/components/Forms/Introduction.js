@@ -1,29 +1,24 @@
-/*
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at https://mozilla.org/MPL/2.0/.
- */
 import React from 'react';
-import Typography from '@mui/material/Typography';
-import CompositeAvatar from '../CompositeAvatar';
+import Typography from '@material-ui/core/Typography';
+import AbrahamAvatarCard from '../AbrahamAvatarCard';
 
 const Introduction = () => {
   return (
     <>
       <Typography variant="h5" gutterBottom>
-        Hey there!
+        Hello there!
       </Typography>
-      <CompositeAvatar showLinks={true}>
-        How&apos;s it going? We&apos;re Abraham Samma and Patricia Kessy, medical doctors and the developers of Neublio. Feel free to reach
-        out to us if you have any questions. Great to have you!
-      </CompositeAvatar>
+      <AbrahamAvatarCard>
+        Nice to meet you. I&apos;m Abraham Samma, the developer of Oneplaybook. Feel free to reach
+        out to me if you have any questions. Great to have you!
+      </AbrahamAvatarCard>
       <Typography variant="inherit">
-        Thanks for taking the time to poke around here! Neublio is at the early stages of
-        its soft launch and we are slowly rolling it out to more users.
+        Welcome to Oneplaybook. Thanks for taking the time to poke around here! Oneplaybook is still
+        at a stage where it is being perfected through a dedicated community of testers.
         <br />
         <br />
-        If you want to be one of the first to try it out, join the waiting list by clicking through and filling out the form.
-        We are super excited to have you try it out and would love to hear your feedback!
+        Currently, the waiting list is not very long, so you probably won&apos;t have to wait very
+        long to try it out. We cannot wait to have you try out our take on the TiddlyWiki workflow!
       </Typography>
     </>
   );

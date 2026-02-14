@@ -1,16 +1,11 @@
-/*
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at https://mozilla.org/MPL/2.0/.
- */
 /* eslint-disable react/forbid-prop-types */
 import React from 'react';
-import { withStyles } from '@mui/styles';
-import useMediaQuery from '@mui/material/useMediaQuery';
-import Stepper from '@mui/material/Stepper';
-import Step from '@mui/material/Step';
-import StepLabel from '@mui/material/StepLabel';
-import Typography from '@mui/material/Typography';
+import { withStyles } from '@material-ui/core/styles';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+import Stepper from '@material-ui/core/Stepper';
+import Step from '@material-ui/core/Step';
+import StepLabel from '@material-ui/core/StepLabel';
+import Typography from '@material-ui/core/Typography';
 import PropTypes from 'prop-types';
 import CustomConnector from './CustomConnector';
 import CustomStepIcon from './CustomStepIcon';
@@ -23,19 +18,16 @@ const stepperStyles = {
   rootHorizontal: {
     height: 'inherit',
     width: '99%', // 100% obliterates the top rounded corners
-    backgroundColor: 'inherit',
-    // makes sure the stepper is centered in its container on smaller screens
-    alignItems: 'center'
+    backgroundColor: 'inherit'
   }
 };
 
 const StepperContainer = ({ classes, steps, activeIndex }) => {
   const mediaQuery = useMediaQuery('(min-width: 768px)');
-  const { rootVertical = '', rootHorizontal = '' } = classes || {};
   return (
     <>
       <Stepper
-        className={mediaQuery ? rootVertical : rootHorizontal}
+        className={mediaQuery ? classes.rootVertical : classes.rootHorizontal}
         activeStep={activeIndex}
         orientation={mediaQuery ? 'vertical' : 'horizontal'}
         alternativeLabel={!mediaQuery}
@@ -62,15 +54,13 @@ const StepperContainer = ({ classes, steps, activeIndex }) => {
 };
 
 StepperContainer.defaultProps = {
-  activeIndex: 0
+  activeIndex: 0,
+  classes: { rootVertical: {}, rootHorizontal: {} }
 };
 
 StepperContainer.propTypes = {
   activeIndex: PropTypes.number,
-  classes: PropTypes.shape({
-    rootVertical: PropTypes.string,
-    rootHorizontal: PropTypes.string
-  }),
+  classes: PropTypes.object,
   steps: PropTypes.array.isRequired
 };
 

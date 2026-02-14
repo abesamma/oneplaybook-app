@@ -1,11 +1,6 @@
-/*
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at https://mozilla.org/MPL/2.0/.
- */
 /* eslint-disable react/forbid-prop-types */
 import React from 'react';
-import { withStyles } from '@mui/styles';
+import { withStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 
 const styles = {
@@ -20,14 +15,13 @@ const styles = {
 };
 
 const FormContainer = ({ classes, steps, activeIndex }) => {
-  const { root = '' } = classes || {};
   return (
     <>
       {steps.map((step, index) => (
         <div
           key={step[0]}
           style={activeIndex === index ? { display: 'block' } : { display: 'none' }}
-          className={root}
+          className={classes.root}
         >
           {step[1]}
         </div>
@@ -37,14 +31,12 @@ const FormContainer = ({ classes, steps, activeIndex }) => {
 };
 
 FormContainer.defaultProps = {
-  classes: { root: '' },
+  classes: { root: {} },
   activeIndex: 0
 };
 
 FormContainer.propTypes = {
-  classes: PropTypes.shape({
-    root: PropTypes.string
-  }),
+  classes: PropTypes.object,
   activeIndex: PropTypes.number,
   steps: PropTypes.array.isRequired
 };

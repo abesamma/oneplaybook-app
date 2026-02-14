@@ -1,17 +1,12 @@
-/*
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at https://mozilla.org/MPL/2.0/.
- */
 import React from 'react';
-import { makeStyles } from '@mui/styles';
-import Typography from '@mui/material/Typography';
-import FormGroup from '@mui/material/FormGroup';
-import FormControl from '@mui/material/FormControl';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import FormHelperText from '@mui/material/FormHelperText';
-import Checkbox from '@mui/material/Checkbox';
-import TextField from '@mui/material/TextField';
+import { makeStyles } from '@material-ui/core/styles';
+import Typography from '@material-ui/core/Typography';
+import FormGroup from '@material-ui/core/FormGroup';
+import FormControl from '@material-ui/core/FormControl';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import FormHelperText from '@material-ui/core/FormHelperText';
+import Checkbox from '@material-ui/core/Checkbox';
+import TextField from '@material-ui/core/TextField';
 import FormErrorContext from '../FormErrorContext';
 
 const useStyles = makeStyles(() => ({
@@ -49,14 +44,14 @@ const ContactForm = () => {
         How would you like to be contacted?
       </Typography>
       <Typography variant="subtitle2" gutterBottom>
-        Thanks for joining our tester community! You will be notified via email when Neublio is
+        Your profile will be reviewed shortly. You will be notified via email when Oneplaybook is
         ready for you to try out. Please enter a valid email address below:
       </Typography>
       <form
         id="form-2"
         className={classes.root}
         method="POST"
-        action="https://script.google.com/macros/s/AKfycbyLXGHjsokiwlMFXb6UGTMOL3jdrCIrxIT5xAoj9W04WdAeujxkxe7WyugGdAkvHmmz/exec"
+        action="https://script.google.com/macros/s/AKfycbyFMZMjerJwztc2kdvV1MolOoiX_LISC92MHXWYGRhay9ZGqjI/exec"
         noValidate
         autoComplete="off"
       >

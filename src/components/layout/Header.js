@@ -1,8 +1,3 @@
-/*
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at https://mozilla.org/MPL/2.0/.
- */
 import React from 'react';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import { window } from 'browser-monads';
@@ -40,27 +35,27 @@ const Header = () => {
       >
         Features
       </AnchorLink>
-      {/* <AnchorLink
+      <AnchorLink
         onAnchorLinkClick={handleMenuClose}
         className="menu-item font-body px-4 my-4 lg:my-0"
         to="/#cloud"
       >
         Hosting
-      </AnchorLink> */}
-      {/* <AnchorLink
+      </AnchorLink>
+      <AnchorLink
         onAnchorLinkClick={handleMenuClose}
         className="menu-item font-body px-4 my-4 lg:my-0"
         to="/#setup"
       >
         Setup
-      </AnchorLink> */}
-      {/* <AnchorLink
+      </AnchorLink>
+      <AnchorLink
         onAnchorLinkClick={handleMenuClose}
         className="menu-item font-body px-4 my-4 lg:my-0"
         to="/#opensource"
       >
         Open source
-      </AnchorLink> */}
+      </AnchorLink>
       <AnchorLink
         onAnchorLinkClick={handleMenuClose}
         className="menu-item font-body px-4 my-4 lg:my-0"
@@ -92,7 +87,7 @@ const Header = () => {
         <div className="hidden lg:flex mt-0">{menuItems}</div>
         <div className="hidden lg:block">
           <CtaButton className="primary-text-bg font-body font-bold text-sm">
-            Get started
+            Join wait list
           </CtaButton>
         </div>
       </div>
