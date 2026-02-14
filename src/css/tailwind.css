@@ -281,9 +281,9 @@ p {
   left: 5px
  }
 .emphasis {
-  text-decoration: underline #e22b6b double 5px;
+  text-decoration: underline #e22b6b double 2.5px;
   text-decoration-skip-ink: none;
-  text-underline-offset: 10px;
+  text-underline-offset: 8px;
 }
 .icon-button {
   box-shadow: 0 5px 10px 0;

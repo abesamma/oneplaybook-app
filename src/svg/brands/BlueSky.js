@@ -4,18 +4,18 @@
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  */
 import React from 'react';
-import svg from '../../assets/github.svg';
+import svg from '../../assets/bluesky.svg';
 
-const Github = ({ className, linkTo }) => (
+const BlueSky = ({ className, linkTo }) => (
   <a
-    title="Check me out at Github"
+    title="Follow me on BlueSky"
     className={className}
     href={linkTo}
     target="_blank"
     rel="noopener noreferrer"
   >
-    <img className="w-5" src={svg} alt="Github profile" />
+    <img className="w-5" src={svg} alt="BlueSky profile" />
   </a>
 );
 
-export default Github;
+export default BlueSky;

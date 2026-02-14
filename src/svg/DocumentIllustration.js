@@ -4,8 +4,8 @@
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  */
 import React from 'react';
-import svg from '../assets/steps_illustration_v1.svg';
+import svg from '../assets/documents.svg';
 
-const Setup = () => <img src={svg} alt="Three steps setup illustration" />;
+const DocumentIllustration = () => <img src={svg} alt="Document illustration" />;
 
-export default Setup;
+export default DocumentIllustration;

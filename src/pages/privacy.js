@@ -1,26 +1,31 @@
+/*
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ */
 import React from 'react';
 import Layout from '../components/layout/Layout';
-import MetaImg from '../assets/meta_image.png';
+import MetaImg from '../assets/workspace.png';
 import Seo from '../components/Seo';
 
-export default () => (
+const PrivacyPage = () => (
   <>
     <Seo
-      href="https://oneplaybook.app"
-      title="Profit with Wikis | Oneplaybook"
+      href="https://neublio.com"
+      title="Neublio - knowledge work evolved"
       metaImg={MetaImg}
-      description="Oneplaybook: manage your knowledge and work better with TiddlyWiki."
+      description="Neublio: your integrated knowledge work toolsuite."
     />
     <Layout>
       <section className="pt-8">
         <div className="container mx-auto text-center">
-          <h1 className="text-3xl lg:text-5xl font-header">Privacy Policy for Oneplaybook</h1>
+          <h1 className="text-3xl lg:text-5xl font-header">Privacy Policy for Neublio</h1>
         </div>
         <div className="container mx-auto px-8 mt-4 text-center lg:text-justify">
           <p className="my-2">
-            At Oneplaybook app, accessible from https://oneplaybook.app, one of our main priorities
+            At Neublio app, accessible from https://neublio.com, one of our main priorities
             is the privacy of our visitors. This Privacy Policy document contains types of
-            information that is collected and recorded by Oneplaybook dot app and how we use it.
+            information that is collected and recorded by Neublio app and how we use it.
           </p>
 
           <p className="my-2">
@@ -31,7 +36,7 @@ export default () => (
           <p className="my-2">
             This Privacy Policy applies only to our online activities and is valid for visitors to
             our website with regards to the information that they shared and/or collect in
-            Oneplaybook dot app. This policy is not applicable to any information collected offline
+            Neublio app. This policy is not applicable to any information collected offline
             or via channels other than this website. Our Privacy Policy was created with the help of
             the <a href="https://www.privacypolicygenerator.info">Privacy Policy Generator</a> and
             the{' '}
@@ -82,7 +87,7 @@ export default () => (
           <h1 className="text-xl font-semibold">Log Files</h1>
 
           <p className="my-2">
-            Oneplaybook dot app follows a standard procedure of using log files. These files log
+            Neublio dot com follows a standard procedure of using log files. These files log
             visitors when they visit websites. All hosting companies do this and a part of hosting
             services&apos; analytics. The information collected by log files include internet
             protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time
@@ -95,7 +100,7 @@ export default () => (
           <h1 className="text-xl font-semibold">Cookies and Web Beacons</h1>
 
           <p className="my-2">
-            Like any other website, Oneplaybook dot app uses &apos;cookies&apos;. These cookies are
+            Like any other website, Neublio dot com uses &apos;cookies&apos;. These cookies are
             used to store information including visitors&apos; preferences, and the pages on the
             website that the visitor accessed or visited. The information is used to optimize the
             users&apos; experience by customizing our web page content based on visitors&apos;
@@ -114,27 +119,27 @@ export default () => (
 
           <p className="my-2">
             You may consult this list to find the Privacy Policy for each of the advertising
-            partners of Oneplaybook dot app.
+            partners of Neublio dot com.
           </p>
 
           <p className="my-2">
             Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web
             Beacons that are used in their respective advertisements and links that appear on
-            Oneplaybook dot app, which are sent directly to users&apos; browser. They automatically
+            Neublio dot com, which are sent directly to users&apos; browser. They automatically
             receive your IP address when this occurs. These technologies are used to measure the
             effectiveness of their advertising campaigns and/or to personalize the advertising
             content that you see on websites that you visit.
           </p>
 
           <p className="my-2">
-            Note that Oneplaybook dot app has no access to or control over these cookies that are
+            Note that Neublio dot com has no access to or control over these cookies that are
             used by third-party advertisers.
           </p>
 
           <h1 className="text-xl font-semibold">Third Party Privacy Policies</h1>
 
           <p className="my-2">
-            Oneplaybook dot app&apos;s Privacy Policy does not apply to other advertisers or
+            Neublio dot com&apos;s Privacy Policy does not apply to other advertisers or
             websites. Thus, we are advising you to consult the respective Privacy Policies of these
             third-party ad servers for more detailed information. It may include their practices and
             instructions about how to opt-out of certain options.{' '}
@@ -217,7 +222,7 @@ export default () => (
           </p>
 
           <p className="my-2">
-            Oneplaybook dot app does not knowingly collect any Personal Identifiable Information
+            Neublio dot com does not knowingly collect any Personal Identifiable Information
             from children under the age of 13. If you think that your child provided this kind of
             information on our website, we strongly encourage you to contact us immediately and we
             will do our best efforts to promptly remove such information from our records.
@@ -231,3 +236,5 @@ export default () => (
     </Layout>
   </>
 );
+
+export default PrivacyPage;

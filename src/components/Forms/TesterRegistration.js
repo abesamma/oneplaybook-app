@@ -1,15 +1,20 @@
+/*
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ */
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
-import TextField from '@material-ui/core/TextField';
+import { makeStyles } from '@mui/styles';
+import Typography from '@mui/material/Typography';
+import TextField from '@mui/material/TextField';
 import options from '../../data/registration-options';
 import FormErrorContext from '../FormErrorContext';
 
 const useStyles = makeStyles(() => ({
   root: {
     '& .MuiTypography-root': {
-      lineHeight: '40px'
+      lineHeight: '55px'
     },
     '& .MuiTextField-root': {
       top: '9.5px'
@@ -47,14 +52,14 @@ const TesterRegistration = () => {
         What about you?
       </Typography>
       <Typography variant="body2">
-        Please describe yourself so that the testing experience can be tailored to your
-        particular background and project needs.
+        Please describe yourself so that your Neublio experience can be tailored to your
+        particular background and needs.
       </Typography>
       <form
         id="form-1"
         className={classes.root}
         method="POST"
-        action="https://script.google.com/macros/s/AKfycbyFMZMjerJwztc2kdvV1MolOoiX_LISC92MHXWYGRhay9ZGqjI/exec"
+        action="https://script.google.com/macros/s/AKfycbyLXGHjsokiwlMFXb6UGTMOL3jdrCIrxIT5xAoj9W04WdAeujxkxe7WyugGdAkvHmmz/exec"
         noValidate
         autoComplete="off"
       >
@@ -143,8 +148,8 @@ const TesterRegistration = () => {
               required
               onChange={handleChange}
             />{' '}
-            software services to manage daily operations. I am interested in trying out Oneplaybook
-            to solve our{' '}
+            software services to manage daily operations. I am interested in trying out Neublio
+            to solve my/our{' '}
             <TextField
               id="problem"
               name="problem"
